@@ -42,7 +42,7 @@
 int main (void) {
 
 
-   print("-- Entering main() --\r\n");
+   xil_printf("-- Entering main() %s %s--\r\n", __DATE__, __TIME__);
 
    /* 
     * MemoryTest routine will not be run for the memory at 
@@ -82,7 +82,7 @@ int main (void) {
       }
    }
 
-   print("-- Exiting main() --\r\n");
+   xil_printf("-- Exiting main() --\r\n");
    return 0;
 }
 
