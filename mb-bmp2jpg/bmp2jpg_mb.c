@@ -98,6 +98,9 @@ int main()
   unsigned int col, cols, row, rows;
   int compression;
   int sample;
+  char* bmpfilename = "image03.bmp";
+  char* jpgfilename = "image03.jpg";
+  int bmpsizelimit = 2*1024*1024;
 
   compression = 0;
  
@@ -109,20 +112,16 @@ int main()
 
   bmpheader=&_bmpheader;
 
-  if ((infile = sysace_fopen("image01.bmp", "r")) == NULL) {
+  if ((infile = sysace_fopen(bmpfilename, "r")) == NULL) {
   	ejpgl_error(eOPENINPUT_FILE, 0);
   	}
 
-  bmpsize = sysace_fread(bmpimage, 1, 1024*1024, infile);
+  xil_printf("File name %s\r\n", bmpfilename);
+  bmpsize = sysace_fread(bmpimage, 1, bmpsizelimit, infile);
   xil_printf("bmpsize %d\r\n", bmpsize);
-
-#if 0
-  bmpsize = sysace_fread(bmpimage, 1, 65536, infile);
-  xil_printf("bmpsize %d\r\n", bmpsize);
-  if (bmpsize==65536) {
+  if (bmpsize==bmpsizelimit) {
   	ejpgl_error(eLARGE_INPUTFILE, 0);
   	}
-#endif
 
 /*  if ((outfile2 = sysace_fopen("image01b.bmp", "w")) == NULL) {   // see if the BMP file is correctly read into memory
 	ejpgl_error(eOPENOUTPUT_FILE, 0);
@@ -141,7 +140,7 @@ int main()
   rows = bmpheader->height>>4; // 3;
   cols = bmpheader->width>>4; // 3;
 
-  if ((outfile = sysace_fopen("image01.jpg", "w")) == NULL) {
+  if ((outfile = sysace_fopen(jpgfilename, "w")) == NULL) {
   	ejpgl_error(eOPENOUTPUT_FILE, 0);
  	} 
   
