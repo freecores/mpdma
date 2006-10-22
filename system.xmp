@@ -31,6 +31,9 @@ UcfFile: data/system.ucf
 Processor: microblaze_0
 BootLoop: 0
 XmdStub: 0
+Processor: microblaze_2
+BootLoop: 0
+XmdStub: 0
 SwProj: TestApp_Memory
 Processor: microblaze_0
 Executable: TestApp_Memory/executable.elf
@@ -75,4 +78,25 @@ ProgStart:
 StackSize: 
 HeapSize: 
 LinkerScript: mb-bmp2jpg_linker_script
+ProgCCFlags: -D__MICROBLAZE
+SwProj: mb-dct
+Processor: microblaze_2
+Executable: mb-dct/executable.elf
+Source: mb-dct/mb-dct.c
+Header: mb-dct/ejpgl.h
+Header: mb-dct/fifo_link.h
+Header: mb-dct/mb-dct.h
+Header: mb-dct/mb-weights.h
+DefaultInit: EXECUTABLE
+InitBram: 1
+Active: 1
+CompilerOptLevel: 2
+GlobPtrOpt: 0
+DebugSym: 1
+AsmOpt: 
+LinkOpt: 
+ProgStart: 
+StackSize: 
+HeapSize: 
+LinkerScript: 
 ProgCCFlags: -D__MICROBLAZE
