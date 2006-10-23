@@ -98,8 +98,8 @@ int main()
   unsigned int col, cols, row, rows;
   int compression;
   int sample;
-  char* bmpfilename = "image06.bmp";
-  char* jpgfilename = "image06.jpg";
+  char* bmpfilename = "image04.bmp";
+  char* jpgfilename = "image04.jpg";
   int bmpsizelimit = 2*1024*1024;
 
   compression = 0;
@@ -154,6 +154,11 @@ int main()
    	for (col = 0; col < cols; col++) {
 		get_MB(row, col, pixelmatrix);
 
+		RGB2YCrCb(pixelmatrix,YMatrix,CrMatrix,CbMatrix,sample);
+
+
+#if 0
+
 // dct->zz/q->vlc		dct call zz/q call vlc
 
 /*		RGB2Y_matrix(pixelmatrix, pmatrix2);
@@ -174,13 +179,15 @@ int main()
 							dct(CbMatrix,2);							
 						}
 					}
-		
+#endif		
 	}
    }
 						
    vlc_end_done();
    zzq_encode_end_done();
    dct_end_done();
+   cc_end_done();
+
 
    xil_printf("\r\nProcessed %d %dx%d-blocks.\r\n",(row-1)*cols+col,MATRIX_SIZE,MATRIX_SIZE);
    writejpegfooter(outfile);

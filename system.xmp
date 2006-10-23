@@ -31,6 +31,9 @@ UcfFile: data/system.ucf
 Processor: microblaze_0
 BootLoop: 0
 XmdStub: 0
+Processor: microblaze_1
+BootLoop: 0
+XmdStub: 0
 Processor: microblaze_2
 BootLoop: 0
 XmdStub: 0
@@ -112,6 +115,26 @@ Header: mb-vlc/ejpgl.h
 Header: mb-vlc/fifo_link.h
 Header: mb-vlc/mb-huffman.h
 Header: mb-vlc/mb-zzq.h
+DefaultInit: EXECUTABLE
+InitBram: 1
+Active: 1
+CompilerOptLevel: 2
+GlobPtrOpt: 0
+DebugSym: 1
+AsmOpt: 
+LinkOpt: 
+ProgStart: 
+StackSize: 
+HeapSize: 
+LinkerScript: 
+ProgCCFlags: -D__MICROBLAZE
+SwProj: mb-cc
+Processor: microblaze_1
+Executable: mb-cc/executable.elf
+Source: mb-cc/mb-cc.c
+Header: mb-cc/ejpgl.h
+Header: mb-cc/fifo_link.h
+Header: mb-cc/io.h
 DefaultInit: EXECUTABLE
 InitBram: 1
 Active: 1

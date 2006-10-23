@@ -1,0 +1,47 @@
+HDL language for the peripheral (top level) design unit fifo_link is vhdl ...
+INFO:MDT - Create temparary xst project file: D:\mpdma\pcores\fifo_link.prj
+Compiling vhdl file
+"D:/thesis/mb-diesel/pcores/fifo_link_v1_00_a/hdl/vhdl/fifo_link.vhd" in Library
+fifo_link_v1_00_a.
+Entity <fifo_link> compiled.
+Entity <fifo_link> (Architecture <EXAMPLE>) compiled.
+
+
+Analyzing HDL attributes ...
+INFO:MDT - IPTYPE set to value : PERIPHERAL
+INFO:MDT - IMP_NETLIST set to value : TRUE
+INFO:MDT - HDL set to value : VHDL
+INFO:MDT - NO SIGIS=RST specified for probable Reset signal FSL_Rst
+INFO:MDT - NO SIGIS=RST specified for probable Reset signal FSL_Rst
+INFO:MDT - Infer bus clock [FSL_Clk] for bus interface MFSL ...
+INFO:MDT - Infer bus reset [FSL_Rst] for bus interface MFSL ...
+INFO:MDT - Infer bus clock [FSL_Clk] for bus interface SFSL ...
+INFO:MDT - Infer bus reset [FSL_Rst] for bus interface SFSL ...
+Copying file fifo_link.vhd to D:\mpdma\pcores\fifo_link_v1_00_a\hdl\vhdl\ ...
+
+Summary:
+
+  Logical library	: fifo_link_v1_00_a
+  Version		: 1.00.a
+  Bus interface(s)	: SFSL MFSL 
+
+The following sub-directories will be created in the pcores repository in your
+project:
+
+- fifo_link_v1_00_a\data
+- fifo_link_v1_00_a\hdl
+- fifo_link_v1_00_a\hdl\vhdl
+
+
+The following HDL source files will be copied into the
+fifo_link_v1_00_a\hdl\vhdl directory:
+
+- fifo_link.vhd
+
+The following files will be created under the fifo_link_v1_00_a\data directory:
+
+- fifo_link_v2_1_0.mpd
+- fifo_link_v2_1_0.pao
+
+Thank you for using this Import Peripheral Wizard!
+

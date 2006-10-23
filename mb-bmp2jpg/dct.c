@@ -16,31 +16,8 @@ int dct_init_start() {
 }
 
 int dct_end_done() {
-	int msg;
 
-	msg=0xff;
-
-	write_into_fsl(msg, XPAR_FSL_FIFO_LINK_0_OUTPUT_SLOT_ID);	
 	return 0;
-
-}
-
-void put_char(unsigned char c);
-
-void check_fsl() {
-	unsigned long result;
-	unsigned long status;
-	unsigned char ch;
-
-	for (;;) {
-       	microblaze_nbread_datafsl(result, 0);
-       	asm volatile ("mfs %0, rmsr" : "=d" (status));
-       	if (status & 0x80000000) return;
-//       	xil_printf("-->%x-%x\r\n", result, status);
-       	ch = result;
-       	put_char(ch);
-		}
-	return;
 
 }
 
