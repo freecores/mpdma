@@ -1,4 +1,43 @@
 
+#include "xparameters.h"
+#include "xutil.h"
+#include "mb_interface.h"
+#include "fifo_link.h"
+
+#include "ejpgl.h"
+
+int dct_init_start() {
+
+	return 0;
+
+}
+
+signed short dctresult[MATRIX_SIZE][MATRIX_SIZE];
+
+#define XPAR_FSL_FIFO_LINK_0_INPUT_SLOT_ID 0
+#define  XPAR_FSL_FIFO_LINK_0_OUTPUT_SLOT_ID 0
+
+void dct(signed char pixels[8][8], int color)
+{
+	int i;
+	long result;
+
+	write_into_fsl(color, XPAR_FSL_FIFO_LINK_0_OUTPUT_SLOT_ID);	
+
+       for (i=0; i<64; i++) {
+       	write_into_fsl(((char*)pixels)[i], XPAR_FSL_FIFO_LINK_0_OUTPUT_SLOT_ID);	
+       	}
+
+	for (i=0; i<64; i++){
+       	read_from_fsl(result, XPAR_FSL_FIFO_LINK_0_INPUT_SLOT_ID);
+		((short*)dctresult)[i] = result;
+		}
+
+	zzq_encode(dctresult, color);
+
+}
+
+#if 0
 #include <stdio.h>
 #include "dct.h"
 #include "weights.h"
@@ -141,3 +180,4 @@ printf("\n");
 
 }
 */
+#endif

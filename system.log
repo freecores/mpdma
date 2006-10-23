@@ -12406,3 +12406,1147 @@ The output file name is D:\mpdma\report\system.html
 Datasheet generation completed.
 Done.
 No changes to be saved in XMP file
+Xilinx Platform Studio (XPS)
+Xilinx EDK 7.1.2 Build EDK_H.12.5.1
+
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+At Local date and time: Mon Oct 23 11:16:34 2006
+Command xbash -q -c "cd /cygdrive/d/mpdma/; /usr/bin/make -f system.make download; exit;" Started...
+*********************************************
+Creating software libraries...
+*********************************************
+libgen -mhs system.mhs -p xc2vp30ff896-7 -lp D:/XilinxXUP/lib/   system.mss
+libgen
+Xilinx EDK 7.1.2 Build EDK_H.12.5.1
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -mhs system.mhs -p xc2vp30ff896-7 -lp D:/XilinxXUP/lib/
+system.mss 
+Output Directory (-od)		: D:\mpdma\
+Part (-p)			: virtex2p
+
+Software Specification file	: system.mss
+Sourcing tcl file
+C:/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v4_00_a/data/microblaze_v2_1_0.
+tcl ...
+Sourcing tcl file
+C:/EDK/hw/XilinxProcessorIPLib/pcores/lmb_v10_v1_00_a/data/lmb_v10_v2_1_0.tcl
+...
+Sourcing tcl file
+C:/EDK/hw/XilinxProcessorIPLib/pcores/lmb_bram_if_cntlr_v1_00_b/data/lmb_bram_if
+_cntlr_v2_1_0.tcl ...
+Sourcing tcl file
+C:/EDK/hw/XilinxProcessorIPLib/pcores/opb_sysace_v1_00_c/data/opb_sysace_v2_1_0.
+tcl ...
+Sourcing tcl file
+C:/EDK/hw/XilinxProcessorIPLib/pcores/opb_ddr_v2_00_b/data/opb_ddr_v2_1_0.tcl
+...
+
+Overriding IP level properties ...
+microblaze (microblaze_0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:60 - tool overriding c_family value virtex2 to virtex2p
+microblaze (microblaze_0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:61 - tool overriding c_instance value microblaze to microblaze_0
+microblaze (microblaze_0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:90 - tcl overriding C_ADDR_TAG_BITS value 17 to 0
+microblaze (microblaze_0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:97 - tcl overriding C_DCACHE_ADDR_TAG value 17 to 0
+microblaze (microblaze_2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:60 - tool overriding c_family value virtex2 to virtex2p
+microblaze (microblaze_2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:61 - tool overriding c_instance value microblaze to microblaze_2
+microblaze (microblaze_2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:90 - tcl overriding C_ADDR_TAG_BITS value 17 to 0
+microblaze (microblaze_2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:97 - tcl overriding C_DCACHE_ADDR_TAG value 17 to 0
+opb_mdm (debug_module) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\opb_mdm_v2_00_a\data\opb_mdm_v2_1_0.mpd:38
+- tool overriding c_family value virtex2 to virtex2p
+bram_block (lmb_bram0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\data\bram_block_v2_1_0.
+mpd:39 - tool overriding c_family value virtex2 to virtex2p
+bram_block (lmb_bram2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\data\bram_block_v2_1_0.
+mpd:39 - tool overriding c_family value virtex2 to virtex2p
+opb_ddr (ddr_256mb_32mx64_rank1_row13_col10_cl2_5) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\opb_ddr_v2_00_b\data\opb_ddr_v2_1_0.mpd:42
+- tool overriding c_family value virtex2 to virtex2p
+dcm_module (dcm_0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\dcm_module_v1_00_a\data\dcm_module_v2_1_0.
+mpd:56 - tool overriding c_family value virtex2 to virtex2p
+dcm_module (dcm_1) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\dcm_module_v1_00_a\data\dcm_module_v2_1_0.
+mpd:56 - tool overriding c_family value virtex2 to virtex2p
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+Address Map for Processor microblaze_0
+  (0x00000000-0x0000ffff) dlmb_cntlr0	dlmb0
+  (0x00000000-0x0000ffff) ilmb_cntlr0	ilmb0
+  (0x30000000-0x3fffffff) DDR_256MB_32MX64_rank1_row13_col10_cl2_5	mb_opb
+  (0x40600000-0x4060ffff) RS232_Uart_1	mb_opb
+  (0x41400000-0x4140ffff) debug_module	mb_opb
+  (0x41800000-0x4180ffff) SysACE_CompactFlash	mb_opb
+Address Map for Processor microblaze_2
+  (0x00000000-0x00001fff) dlmb_cntlr2	dlmb2
+  (0x00000000-0x00001fff) ilmb_cntlr2	ilmb2
+  (0x30000000-0x3fffffff) DDR_256MB_32MX64_rank1_row13_col10_cl2_5	mb_opb
+  (0x40600000-0x4060ffff) RS232_Uart_1	mb_opb
+  (0x41400000-0x4140ffff) debug_module	mb_opb
+  (0x41800000-0x4180ffff) SysACE_CompactFlash	mb_opb
+
+Check platform configuration ...
+opb_v20 (mb_opb) - D:\mpdma\system.mhs:88 - 4 master(s) : 4 slave(s)
+lmb_v10 (ilmb0) - D:\mpdma\system.mhs:114 - 1 master(s) : 1 slave(s)
+lmb_v10 (dlmb0) - D:\mpdma\system.mhs:122 - 1 master(s) : 1 slave(s)
+lmb_v10 (ilmb2) - D:\mpdma\system.mhs:130 - 1 master(s) : 1 slave(s)
+lmb_v10 (dlmb2) - D:\mpdma\system.mhs:138 - 1 master(s) : 1 slave(s)
+fsl_v20 (fsl0m) - D:\mpdma\system.mhs:146 - 1 master(s) : 1 slave(s)
+fsl_v20 (fsl0s) - D:\mpdma\system.mhs:155 - 1 master(s) : 1 slave(s)
+fsl_v20 (fsl2m) - D:\mpdma\system.mhs:164 - 1 master(s) : 1 slave(s)
+fsl_v20 (fsl2s) - D:\mpdma\system.mhs:173 - 1 master(s) : 1 slave(s)
+
+Check port drivers...
+
+Check platform address map ...
+
+Overriding system level properties ...
+lmb_v10 (ilmb0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v1_00_a\data\lmb_v10_v2_1_0.mpd:36
+- tool overriding c_lmb_num_slaves value 4 to 1
+lmb_v10 (dlmb0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v1_00_a\data\lmb_v10_v2_1_0.mpd:36
+- tool overriding c_lmb_num_slaves value 4 to 1
+lmb_v10 (ilmb2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v1_00_a\data\lmb_v10_v2_1_0.mpd:36
+- tool overriding c_lmb_num_slaves value 4 to 1
+lmb_v10 (dlmb2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v1_00_a\data\lmb_v10_v2_1_0.mpd:36
+- tool overriding c_lmb_num_slaves value 4 to 1
+lmb_bram_if_cntlr (dlmb_cntlr0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\lmb_bram_if_cntlr_v1_00_b\data\lmb_bram_if
+_cntlr_v2_1_0.mpd:42 - tool overriding c_mask value 0x00800000 to 0x10c00000
+lmb_bram_if_cntlr (ilmb_cntlr0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\lmb_bram_if_cntlr_v1_00_b\data\lmb_bram_if
+_cntlr_v2_1_0.mpd:42 - tool overriding c_mask value 0x00800000 to 0x10c00000
+bram_block (lmb_bram0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\data\bram_block_v2_1_0.
+mpd:35 - tool overriding c_memsize value 2048 to 65536
+lmb_bram_if_cntlr (dlmb_cntlr2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\lmb_bram_if_cntlr_v1_00_b\data\lmb_bram_if
+_cntlr_v2_1_0.mpd:42 - tool overriding c_mask value 0x00800000 to 0x10c00000
+lmb_bram_if_cntlr (ilmb_cntlr2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\lmb_bram_if_cntlr_v1_00_b\data\lmb_bram_if
+_cntlr_v2_1_0.mpd:42 - tool overriding c_mask value 0x00800000 to 0x10c00000
+bram_block (lmb_bram2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\data\bram_block_v2_1_0.
+mpd:35 - tool overriding c_memsize value 2048 to 8192
+
+Running DRC Tcl procedures for OPTION SYSLEVEL_DRC_PROC...
+Sourcing tcl file
+C:/EDK/hw/XilinxProcessorIPLib/pcores/ddr_v2_00_b/data/ddr_v2_1_0.tcl ...
+
+Performing System level DRCs on properties...
+WARNING:MDT - Peripheral sysclk_inv is not connected to any of the processors in
+   the system. Check for the following reasons.
+   1. sysclk_inv is not connected to any of the buses connected to a processor. 
+   2. sysclk_inv does not have adresses set correctly. 
+   3. sysclk_inv's address is not within any of the bridge windows connected to
+   a processor.
+WARNING:MDT - Peripheral clk90_inv is not connected to any of the processors in
+   the system. Check for the following reasons.
+   1. clk90_inv is not connected to any of the buses connected to a processor. 
+   2. clk90_inv does not have adresses set correctly. 
+   3. clk90_inv's address is not within any of the bridge windows connected to a
+   processor.
+WARNING:MDT - Peripheral ddr_clk90_inv is not connected to any of the processors
+   in the system. Check for the following reasons.
+   1. ddr_clk90_inv is not connected to any of the buses connected to a
+   processor. 
+   2. ddr_clk90_inv does not have adresses set correctly. 
+   3. ddr_clk90_inv's address is not within any of the bridge windows connected
+   to a processor.
+WARNING:MDT - Peripheral dcm_0 is not connected to any of the processors in the
+   system. Check for the following reasons.
+   1. dcm_0 is not connected to any of the buses connected to a processor. 
+   2. dcm_0 does not have adresses set correctly. 
+   3. dcm_0's address is not within any of the bridge windows connected to a
+   processor.
+WARNING:MDT - Peripheral dcm_1 is not connected to any of the processors in the
+   system. Check for the following reasons.
+   1. dcm_1 is not connected to any of the buses connected to a processor. 
+   2. dcm_1 does not have adresses set correctly. 
+   3. dcm_1's address is not within any of the bridge windows connected to a
+   processor.
+INFO:MDT - List of peripherals addressable from processor instance microblaze_0
+   : 
+  - dlmb_cntlr0
+  - ilmb_cntlr0
+  - debug_module
+  - RS232_Uart_1
+  - SysACE_CompactFlash
+  - DDR_256MB_32MX64_rank1_row13_col10_cl2_5
+  - fifo02
+INFO:MDT - List of peripherals addressable from processor instance microblaze_2
+   : 
+  - dlmb_cntlr2
+  - ilmb_cntlr2
+  - debug_module
+  - RS232_Uart_1
+  - SysACE_CompactFlash
+  - DDR_256MB_32MX64_rank1_row13_col10_cl2_5
+  - fifo20
+
+Building Directory Structure for microblaze_0
+
+Generating platform libraries and device drivers ...
+
+Running CopyFiles ...
+
+Copying files for os standalone_v1_00_a from
+C:\EDK\sw\lib\bsp\standalone_v1_00_a\src\ to
+D:\mpdma\microblaze_0\libsrc\standalone_v1_00_a\ ...
+
+Copying files for driver uartlite_v1_00_b from
+C:\EDK\sw\XilinxProcessorIPLib\drivers\uartlite_v1_00_b\src\ to
+D:\mpdma\microblaze_0\libsrc\uartlite_v1_00_b\ ...
+
+Copying files for driver sysace_v1_00_a from
+C:\EDK\sw\XilinxProcessorIPLib\drivers\sysace_v1_00_a\src\ to
+D:\mpdma\microblaze_0\libsrc\sysace_v1_00_a\ ...
+
+Copying files for driver cpu_v1_00_a from
+C:\EDK\sw\XilinxProcessorIPLib\drivers\cpu_v1_00_a\src\ to
+D:\mpdma\microblaze_0\libsrc\cpu_v1_00_a\ ...
+
+Copying files for library xilfatfs_v1_00_a from
+C:\EDK\sw\lib\sw_services\xilfatfs_v1_00_a\src\ to
+D:\mpdma\microblaze_0\libsrc\xilfatfs_v1_00_a\ ...
+
+Running DRCs for OSes, Drivers and Libraries ... 
+
+Running generate for OS'es, Drivers and Libraries ... 
+Copying Library Files ...
+
+Running post_generate for OS'es, Drivers and Libraries ... 
+
+Running make for Drivers and Libraries ... 
+
+Configuring make for target include using:
+
+make -s include "COMPILER=mb-gcc" "ARCHIVER=mb-ar"
+"COMPILER_FLAGS=-mno-xl-soft-mul  -O2 -c" "EXTRA_COMPILER_FLAGS=-g" 
+
+Configuring make for target libs using:
+
+make -s libs "COMPILER=mb-gcc" "ARCHIVER=mb-ar"
+"COMPILER_FLAGS=-mno-xl-soft-mul  -O2 -c" "EXTRA_COMPILER_FLAGS=-g" 
+Compiling commo
+Compiling  microblaze_disable_dcache.
+Compiling  microblaze_disable_exceptions.
+Compiling  microblaze_disable_icache.
+Compiling  microblaze_disable_interrupts.
+Compiling  microblaze_enable_dcache.
+Compiling  microblaze_enable_exceptions.
+Compiling  microblaze_enable_icache.
+Compiling  microblaze_enable_interrupts.
+Compiling  microblaze_init_dcache_range.
+Compiling  microblaze_init_icache_range.
+Compiling  microblaze_update_dcache.
+Compiling  microblaze_update_icache.
+Compiling  inbyte.
+Compiling  microblaze_exception_handler.
+Compiling  microblaze_exceptions_g.
+Compiling  microblaze_interrupt_handler.
+Compiling  microblaze_interrupts_g.
+Compiling  outbyte.
+Compiling  hw_exception_handler.
+Compiling  src/xilfatfs_alloc.
+Compiling  src/xilfatfs_close.
+Compiling  src/xilfatfs_directory.
+Compiling  src/xilfatfs_fat.
+Compiling  src/xilfatfs_fat16.
+Compiling  src/xilfatfs_fat32.
+Compiling  src/xilfatfs_filespec.
+Compiling  src/xilfatfs_filestatus.
+Compiling  src/xilfatfs_open.
+Compiling  src/xilfatfs_part.
+Compiling  src/xilfatfs_read.
+Compiling  src/xilfatfs_wd.
+Compiling  src/xilfatfs_stats.
+Compiling  src/xilfatfs_bufcache.
+Compiling  src/xilfatfs_write.
+Compiling  src/xilfatfs_sysace.
+make clea
+Compiling uartlit
+Compiling sysac
+Compiling cp
+
+Libraries generated in D:\mpdma\microblaze_0\lib\ directory
+
+Running execs_generate for OS'es, Drivers and Libraries ... 
+
+Building Directory Structure for microblaze_2
+
+Generating platform libraries and device drivers ...
+
+Running CopyFiles ...
+
+Copying files for os standalone_v1_00_a from
+C:\EDK\sw\lib\bsp\standalone_v1_00_a\src\ to
+D:\mpdma\microblaze_2\libsrc\standalone_v1_00_a\ ...
+
+Copying files for driver uartlite_v1_00_b from
+C:\EDK\sw\XilinxProcessorIPLib\drivers\uartlite_v1_00_b\src\ to
+D:\mpdma\microblaze_2\libsrc\uartlite_v1_00_b\ ...
+
+Copying files for driver sysace_v1_00_a from
+C:\EDK\sw\XilinxProcessorIPLib\drivers\sysace_v1_00_a\src\ to
+D:\mpdma\microblaze_2\libsrc\sysace_v1_00_a\ ...
+
+Copying files for driver cpu_v1_00_a from
+C:\EDK\sw\XilinxProcessorIPLib\drivers\cpu_v1_00_a\src\ to
+D:\mpdma\microblaze_2\libsrc\cpu_v1_00_a\ ...
+
+Copying files for library xilfatfs_v1_00_a from
+C:\EDK\sw\lib\sw_services\xilfatfs_v1_00_a\src\ to
+D:\mpdma\microblaze_2\libsrc\xilfatfs_v1_00_a\ ...
+
+Running DRCs for OSes, Drivers and Libraries ... 
+
+Running generate for OS'es, Drivers and Libraries ... 
+Copying Library Files ...
+
+Running post_generate for OS'es, Drivers and Libraries ... 
+
+Running make for Drivers and Libraries ... 
+
+Configuring make for target include using:
+
+make -s include "COMPILER=mb-gcc" "ARCHIVER=mb-ar"
+"COMPILER_FLAGS=-mno-xl-soft-mul  -O2 -c" "EXTRA_COMPILER_FLAGS=-g" 
+
+Configuring make for target libs using:
+
+make -s libs "COMPILER=mb-gcc" "ARCHIVER=mb-ar"
+"COMPILER_FLAGS=-mno-xl-soft-mul  -O2 -c" "EXTRA_COMPILER_FLAGS=-g" 
+Compiling commo
+Compiling  microblaze_disable_dcache.
+Compiling  microblaze_disable_exceptions.
+Compiling  microblaze_disable_icache.
+Compiling  microblaze_disable_interrupts.
+Compiling  microblaze_enable_dcache.
+Compiling  microblaze_enable_exceptions.
+Compiling  microblaze_enable_icache.
+Compiling  microblaze_enable_interrupts.
+Compiling  microblaze_init_dcache_range.
+Compiling  microblaze_init_icache_range.
+Compiling  microblaze_update_dcache.
+Compiling  microblaze_update_icache.
+Compiling  microblaze_exception_handler.
+Compiling  microblaze_exceptions_g.
+Compiling  microblaze_interrupt_handler.
+Compiling  microblaze_interrupts_g.
+Compiling  hw_exception_handler.
+Compiling  src/xilfatfs_alloc.
+Compiling  src/xilfatfs_close.
+Compiling  src/xilfatfs_directory.
+Compiling  src/xilfatfs_fat.
+Compiling  src/xilfatfs_fat16.
+Compiling  src/xilfatfs_fat32.
+Compiling  src/xilfatfs_filespec.
+Compiling  src/xilfatfs_filestatus.
+Compiling  src/xilfatfs_open.
+Compiling  src/xilfatfs_part.
+Compiling  src/xilfatfs_read.
+Compiling  src/xilfatfs_wd.
+Compiling  src/xilfatfs_stats.
+Compiling  src/xilfatfs_bufcache.
+Compiling  src/xilfatfs_write.
+Compiling  src/xilfatfs_sysace.
+make clea
+Compiling uartlit
+Compiling sysac
+Compiling cp
+
+Libraries generated in D:\mpdma\microblaze_2\lib\ directory
+
+Running execs_generate for OS'es, Drivers and Libraries ... 
+
+LibGen Done. 
+mb-gcc -O2 mb-bmp2jpg/bmp2jpg_mb.c mb-bmp2jpg/ColorConversion.c mb-bmp2jpg/dct.c mb-bmp2jpg/huffman.c mb-bmp2jpg/zzq.c  -o mb-bmp2jpg/executable.elf \
+   -mno-xl-soft-mul     -Wl,-T -Wl,mb-bmp2jpg_linker_script  -g   -I./microblaze_0/include/  -Imb-bmp2jpg/  -L./microblaze_0/lib/  \
+-xl-mode-executable  \
+-D__MICROBLAZE  
+mb-bmp2jpg/huffman.c: In function `HuffmanEncodeFinishSend':
+mb-bmp2jpg/huffman.c:689: warning: comparison is always true due to limited range of data type
+mb-size mb-bmp2jpg/executable.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25400	   5129	   7896	  38425	   9619	mb-bmp2jpg/executable.elf
+mb-gcc -O2 mb-dct/mb-dct.c  -o mb-dct/executable.elf \
+   -mno-xl-soft-mul      -g   -I./microblaze_2/include/  -Imb-dct/  -L./microblaze_2/lib/  \
+-xl-mode-executable  \
+-D__MICROBLAZE  
+mb-size mb-dct/executable.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1448	   2060	   1224	   4732	   127c	mb-dct/executable.elf
+*********************************************
+Initializing BRAM contents of the bitstream
+*********************************************
+bitinit system.mhs -lp D:/XilinxXUP/lib/ -pe microblaze_0 mb-bmp2jpg/executable.elf  -pe microblaze_2 mb-dct/executable.elf  \
+-bt implementation/system.bit -o implementation/download.bit
+
+bitinit version Xilinx EDK 7.1.2 Build EDK_H.12.5.1
+Copyright (c) Xilinx Inc. 2002.
+
+Parsing MHS File system.mhs...
+Sourcing tcl file
+C:/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v4_00_a/data/microblaze_v2_1_0.
+tcl ...
+Sourcing tcl file
+C:/EDK/hw/XilinxProcessorIPLib/pcores/lmb_v10_v1_00_a/data/lmb_v10_v2_1_0.tcl
+...
+Sourcing tcl file
+C:/EDK/hw/XilinxProcessorIPLib/pcores/lmb_bram_if_cntlr_v1_00_b/data/lmb_bram_if
+_cntlr_v2_1_0.tcl ...
+Sourcing tcl file
+C:/EDK/hw/XilinxProcessorIPLib/pcores/opb_sysace_v1_00_c/data/opb_sysace_v2_1_0.
+tcl ...
+Sourcing tcl file
+C:/EDK/hw/XilinxProcessorIPLib/pcores/opb_ddr_v2_00_b/data/opb_ddr_v2_1_0.tcl
+...
+
+Overriding IP level properties ...
+microblaze (microblaze_0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:60 - tool overriding c_family value virtex2 to 
+microblaze (microblaze_0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:61 - tool overriding c_instance value microblaze to microblaze_0
+microblaze (microblaze_0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:90 - tcl overriding C_ADDR_TAG_BITS value 17 to 0
+microblaze (microblaze_0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:97 - tcl overriding C_DCACHE_ADDR_TAG value 17 to 0
+microblaze (microblaze_2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:60 - tool overriding c_family value virtex2 to 
+microblaze (microblaze_2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:61 - tool overriding c_instance value microblaze to microblaze_2
+microblaze (microblaze_2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:90 - tcl overriding C_ADDR_TAG_BITS value 17 to 0
+microblaze (microblaze_2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:97 - tcl overriding C_DCACHE_ADDR_TAG value 17 to 0
+opb_mdm (debug_module) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\opb_mdm_v2_00_a\data\opb_mdm_v2_1_0.mpd:38
+- tool overriding c_family value virtex2 to 
+bram_block (lmb_bram0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\data\bram_block_v2_1_0.
+mpd:39 - tool overriding c_family value virtex2 to 
+bram_block (lmb_bram2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\data\bram_block_v2_1_0.
+mpd:39 - tool overriding c_family value virtex2 to 
+opb_ddr (ddr_256mb_32mx64_rank1_row13_col10_cl2_5) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\opb_ddr_v2_00_b\data\opb_ddr_v2_1_0.mpd:42
+- tool overriding c_family value virtex2 to 
+dcm_module (dcm_0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\dcm_module_v1_00_a\data\dcm_module_v2_1_0.
+mpd:56 - tool overriding c_family value virtex2 to 
+dcm_module (dcm_1) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\dcm_module_v1_00_a\data\dcm_module_v2_1_0.
+mpd:56 - tool overriding c_family value virtex2 to 
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+Address Map for Processor microblaze_0
+  (0x00000000-0x0000ffff) dlmb_cntlr0	dlmb0
+  (0x00000000-0x0000ffff) ilmb_cntlr0	ilmb0
+  (0x30000000-0x3fffffff) DDR_256MB_32MX64_rank1_row13_col10_cl2_5	mb_opb
+  (0x40600000-0x4060ffff) RS232_Uart_1	mb_opb
+  (0x41400000-0x4140ffff) debug_module	mb_opb
+  (0x41800000-0x4180ffff) SysACE_CompactFlash	mb_opb
+Address Map for Processor microblaze_2
+  (0x00000000-0x00001fff) dlmb_cntlr2	dlmb2
+  (0x00000000-0x00001fff) ilmb_cntlr2	ilmb2
+  (0x30000000-0x3fffffff) DDR_256MB_32MX64_rank1_row13_col10_cl2_5	mb_opb
+  (0x40600000-0x4060ffff) RS232_Uart_1	mb_opb
+  (0x41400000-0x4140ffff) debug_module	mb_opb
+  (0x41800000-0x4180ffff) SysACE_CompactFlash	mb_opb
+
+Initializing Memory...
+Checking ELFs associated with MICROBLAZE instance microblaze_0 for overlap...
+
+
+Analyzing file mb-bmp2jpg/executable.elf...
+Checking ELFs associated with MICROBLAZE instance microblaze_2 for overlap...
+
+
+Analyzing file mb-dct/executable.elf...
+INFO:MDT - BRAM lmb_bram0 will be initialized with ELF of processor microblaze_0
+INFO:MDT - BRAM lmb_bram2 will be initialized with ELF of processor microblaze_2
+Running Data2Mem with the following command:
+data2mem -bm implementation/system_bd -bt implementation/system.bit  -bd
+mb-bmp2jpg/executable.elf tag lmb_bram0  -bd mb-dct/executable.elf tag lmb_bram2
+ -o b implementation/download.bit 
+Memory Initialization completed successfully.
+
+*********************************************
+Downloading Bitstream onto the target board
+*********************************************
+impact -batch etc/download.cmd
+Release 7.1.02i - iMPACT H.42
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+No resources.
+Connecting to cable (USB Port).
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 7.0.0.0. LPT base address = 0378h.
+ ECP base address = 0778h.
+ ECP hardware is detected.
+Cable connection established.
+Connecting to cable (Parallel Port - LPT1) in ECP mode.
+Checking cable driver.
+ Driver xpc4drvr.sys version = 1.0.4.0.
+ LPT base address = 0378h.
+ Cable Type = 1, Revision = 3.
+ Setting cable speed to 5 MHz.
+Cable connection established.
+// *** BATCH CMD : identify
+Identifying chain contents ....Version is 0001
+'1': : Manufacturer's ID =Xilinx xc2vp30, Version : 1
+INFO:iMPACT:1777 - 
+   Reading c:/Xilinx/virtex2p/data/xc2vp30.bsd...
+INFO:iMPACT:501 - '1': Added Device xc2vp30 successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Version is 0000
+'2': : Manufacturer's ID =Xilinx xccace, Version : 0
+INFO:iMPACT:1777 - 
+   Reading c:/Xilinx/acecf/data/xccace.bsd...
+INFO:iMPACT:501 - '1': Added Device xccace successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Version is 1111
+'3': : Manufacturer's ID =Xilinx xcf32p, Version : 15
+INFO:iMPACT:1777 - 
+   Reading c:/Xilinx/xcfp/data/xcf32p.bsd...
+INFO:iMPACT:501 - '1': Added Device xcf32p successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+done.
+Validating chain...
+Boundary-scan chain validated successfully.
+Elapsed time =      1 sec.
+// *** BATCH CMD : identifyMPM
+Elapsed time =      0 sec.
+// *** BATCH CMD : setAttribute -position 3 -attr configFileName -value
+"implementation/download.bit"
+'3': Loading file 'implementation/download.bit' ...
+done.
+INFO:iMPACT:501 - '3': Added Device xc2vp30 successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+// *** BATCH CMD : program -p 3 
+Validating chain...
+Boundary-scan chain validated successfully.
+'3':Programming  device...
+done.
+'3': Reading status register contents...
+CRC error                                         :         0
+Decryptor security set                            :         0
+DCM locked                                        :         1
+DCI matched                                       :         1
+legacy input error                                :         0
+status of GTS_CFG_B                               :         1
+status of GWE                                     :         1
+status of GHIGH                                   :         1
+value of MODE pin M0                              :         1
+value of MODE pin M1                              :         0
+value of MODE pin M2                              :         1
+value of CFG_RDY (INIT_B)                         :         1
+DONEIN input from DONE pin                        :         1
+IDCODE not validated while trying to write FDRI   :         0
+write FDRI issued before or after decrypt operation:         0
+Decryptor keys not used in proper sequence        :         0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 0111 1011 1000 0000 0000 0000 0000 
+INFO:iMPACT:579 - '3': Completed downloading bit file to device.
+INFO:iMPACT:580 - '3':Checking done pin ....done.
+'3': Programmed successfully.
+Elapsed time =      4 sec.
+// *** BATCH CMD : quit
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Done.
+At Local date and time: Mon Oct 23 11:23:24 2006
+Command xbash -q -c "cd /cygdrive/d/mpdma/; /usr/bin/make -f system.make download; exit;" Started...
+
+*********************************************
+Downloading Bitstream onto the target board
+*********************************************
+impact -batch etc/download.cmd
+Release 7.1.02i - iMPACT H.42
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+No resources.
+Connecting to cable (USB Port).
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 7.0.0.0. LPT base address = 0378h.
+ ECP base address = 0778h.
+ ECP hardware is detected.
+Cable connection established.
+Connecting to cable (Parallel Port - LPT1) in ECP mode.
+Checking cable driver.
+ Driver xpc4drvr.sys version = 1.0.4.0. LPT base address = 0378h.
+ Cable Type = 1, Revision = 3.
+ Setting cable speed to 5 MHz.
+Cable connection established.
+// *** BATCH CMD : identify
+Identifying chain contents ....Version is 0001
+'1': : Manufacturer's ID =Xilinx xc2vp30, Version : 1
+INFO:iMPACT:1777 - 
+   Reading c:/Xilinx/virtex2p/data/xc2vp30.bsd...
+INFO:iMPACT:501 - '1': Added Device xc2vp30 successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Version is 0000
+'2': : Manufacturer's ID =Xilinx xccace, Version : 0
+INFO:iMPACT:1777 - 
+   Reading c:/Xilinx/acecf/data/xccace.bsd...
+INFO:iMPACT:501 - '1': Added Device xccace successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Version is 1111
+'3': : Manufacturer's ID =Xilinx xcf32p, Version : 15
+INFO:iMPACT:1777 - 
+   Reading c:/Xilinx/xcfp/data/xcf32p.bsd...
+INFO:iMPACT:501 - '1': Added Device xcf32p successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+done.
+Validating chain...
+Boundary-scan chain validated successfully.
+Elapsed time =      0 sec.
+// *** BATCH CMD : identifyMPM
+Elapsed time =      0 sec.
+// *** BATCH CMD : setAttribute -position 3 -attr configFileName -value
+"implementation/download.bit"
+'3': Loading file 'implementation/download.bit' ...
+done.
+INFO:iMPACT:501 - '3': Added Device xc2vp30 successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+// *** BATCH CMD : program -p 3 
+Validating chain...
+Boundary-scan chain validated successfully.
+'3':Programming  device...
+done.
+'3': Reading status register contents...
+CRC error                                         :         0
+Decryptor security set                            :         0
+DCM locked                                        :         1
+DCI matched                                       :         1
+legacy input error                                :         0
+status of GTS_CFG_B                               :         1
+status of GWE                                     :         1
+status of GHIGH                                   :         1
+value of MODE pin M0                              :         1
+value of MODE pin M1                              :         0
+value of MODE pin M2                              :         1
+value of CFG_RDY (INIT_B)                         :         1
+DONEIN input from DONE pin                        :         1
+IDCODE not validated while trying to write FDRI   :         0
+write FDRI issued before or after decrypt operation:         0
+Decryptor keys not used in proper sequence        :         0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 0111 1011 1000 0000 0000 0000 0000 
+INFO:iMPACT:579 - '3': Completed downloading bit file to device.
+INFO:iMPACT:580 - '3':Checking done pin ....done.
+'3': Programmed successfully.
+Elapsed time =      3 sec.
+// *** BATCH CMD : quit
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Done.
+At Local date and time: Mon Oct 23 11:28:33 2006
+Command xbash -q -c "cd /cygdrive/d/mpdma/; /usr/bin/make -f system.make program; exit;" Started...
+mb-gcc -O2 mb-bmp2jpg/bmp2jpg_mb.c mb-bmp2jpg/ColorConversion.c mb-bmp2jpg/dct.c mb-bmp2jpg/huffman.c mb-bmp2jpg/zzq.c  -o mb-bmp2jpg/executable.elf \
+   -mno-xl-soft-mul     -Wl,-T -Wl,mb-bmp2jpg_linker_script  -g   -I./microblaze_0/include/  -Imb-bmp2jpg/  -L./microblaze_0/lib/  \
+-xl-mode-executable  \
+-D__MICROBLAZE  
+mb-bmp2jpg/huffman.c: In function `HuffmanEncodeFinishSend':
+mb-bmp2jpg/huffman.c:689: warning: comparison is always true due to limited range of data type
+mb-size mb-bmp2jpg/executable.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24440	   3073	   7896	  35409	   8a51	mb-bmp2jpg/executable.elf
+Done.
+At Local date and time: Mon Oct 23 11:28:40 2006
+Command xbash -q -c "cd /cygdrive/d/mpdma/; /usr/bin/make -f system.make init_bram; exit;" Started...
+*********************************************
+Initializing BRAM contents of the bitstream
+*********************************************
+bitinit system.mhs -lp D:/XilinxXUP/lib/ -pe microblaze_0 mb-bmp2jpg/executable.elf  -pe microblaze_2 mb-dct/executable.elf  \
+-bt implementation/system.bit -o implementation/download.bit
+
+bitinit version Xilinx EDK 7.1.2 Build EDK_H.12.5.1
+Copyright (c) Xilinx Inc. 2002.
+
+Parsing MHS File system.mhs...
+Sourcing tcl file
+C:/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v4_00_a/data/microblaze_v2_1_0.
+tcl ...
+Sourcing tcl file
+C:/EDK/hw/XilinxProcessorIPLib/pcores/lmb_v10_v1_00_a/data/lmb_v10_v2_1_0.tcl
+...
+Sourcing tcl file
+C:/EDK/hw/XilinxProcessorIPLib/pcores/lmb_bram_if_cntlr_v1_00_b/data/lmb_bram_if
+_cntlr_v2_1_0.tcl ...
+Sourcing tcl file
+C:/EDK/hw/XilinxProcessorIPLib/pcores/opb_sysace_v1_00_c/data/opb_sysace_v2_1_0.
+tcl ...
+Sourcing tcl file
+C:/EDK/hw/XilinxProcessorIPLib/pcores/opb_ddr_v2_00_b/data/opb_ddr_v2_1_0.tcl
+...
+
+Overriding IP level properties ...
+microblaze (microblaze_0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:60 - tool overriding c_family value virtex2 to 
+microblaze (microblaze_0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:61 - tool overriding c_instance value microblaze to microblaze_0
+microblaze (microblaze_0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:90 - tcl overriding C_ADDR_TAG_BITS value 17 to 0
+microblaze (microblaze_0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:97 - tcl overriding C_DCACHE_ADDR_TAG value 17 to 0
+microblaze (microblaze_2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:60 - tool overriding c_family value virtex2 to 
+microblaze (microblaze_2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:61 - tool overriding c_instance value microblaze to microblaze_2
+microblaze (microblaze_2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:90 - tcl overriding C_ADDR_TAG_BITS value 17 to 0
+microblaze (microblaze_2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:97 - tcl overriding C_DCACHE_ADDR_TAG value 17 to 0
+opb_mdm (debug_module) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\opb_mdm_v2_00_a\data\opb_mdm_v2_1_0.mpd:38
+- tool overriding c_family value virtex2 to 
+bram_block (lmb_bram0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\data\bram_block_v2_1_0.
+mpd:39 - tool overriding c_family value virtex2 to 
+bram_block (lmb_bram2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\data\bram_block_v2_1_0.
+mpd:39 - tool overriding c_family value virtex2 to 
+opb_ddr (ddr_256mb_32mx64_rank1_row13_col10_cl2_5) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\opb_ddr_v2_00_b\data\opb_ddr_v2_1_0.mpd:42
+- tool overriding c_family value virtex2 to 
+dcm_module (dcm_0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\dcm_module_v1_00_a\data\dcm_module_v2_1_0.
+mpd:56 - tool overriding c_family value virtex2 to 
+dcm_module (dcm_1) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\dcm_module_v1_00_a\data\dcm_module_v2_1_0.
+mpd:56 - tool overriding c_family value virtex2 to 
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+Address Map for Processor microblaze_0
+  (0x00000000-0x0000ffff) dlmb_cntlr0	dlmb0
+  (0x00000000-0x0000ffff) ilmb_cntlr0	ilmb0
+  (0x30000000-0x3fffffff) DDR_256MB_32MX64_rank1_row13_col10_cl2_5	mb_opb
+  (0x40600000-0x4060ffff) RS232_Uart_1	mb_opb
+  (0x41400000-0x4140ffff) debug_module	mb_opb
+  (0x41800000-0x4180ffff) SysACE_CompactFlash	mb_opb
+Address Map for Processor microblaze_2
+  (0x00000000-0x00001fff) dlmb_cntlr2	dlmb2
+  (0x00000000-0x00001fff) ilmb_cntlr2	ilmb2
+  (0x30000000-0x3fffffff) DDR_256MB_32MX64_rank1_row13_col10_cl2_5	mb_opb
+  (0x40600000-0x4060ffff) RS232_Uart_1	mb_opb
+  (0x41400000-0x4140ffff) debug_module	mb_opb
+  (0x41800000-0x4180ffff) SysACE_CompactFlash	mb_opb
+
+Initializing Memory...
+Checking ELFs associated with MICROBLAZE instance microblaze_0 for overlap...
+
+
+Analyzing file mb-bmp2jpg/executable.elf...
+Checking ELFs associated with MICROBLAZE instance microblaze_2 for overlap...
+
+
+Analyzing file mb-dct/executable.elf...
+INFO:MDT - BRAM lmb_bram0 will be initialized with ELF of processor microblaze_0
+INFO:MDT - BRAM lmb_bram2 will be initialized with ELF of processor microblaze_2
+Running Data2Mem with the following command:
+data2mem -bm implementation/system_bd -bt implementation/system.bit  -bd
+mb-bmp2jpg/executable.elf tag lmb_bram0  -bd mb-dct/executable.elf tag lmb_bram2
+ -o b implementation/download.bit 
+Memory Initialization completed successfully.
+Done.
+At Local date and time: Mon Oct 23 11:28:46 2006
+Command xbash -q -c "cd /cygdrive/d/mpdma/; /usr/bin/make -f system.make download; exit;" Started...
+
+*********************************************
+Downloading Bitstream onto the target board
+*********************************************
+impact -batch etc/download.cmd
+Release 7.1.02i - iMPACT H.42
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+No resources.
+Connecting to cable (USB Port).
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 7.0.0.0. LPT base address = 0378h.
+ ECP base address = 0778h.
+ ECP hardware is detected.
+Cable connection established.
+Connecting to cable (Parallel Port - LPT1) in ECP mode.
+Checking cable driver.
+ Driver xpc4drvr.sys version = 1.0.4.0. LPT base address = 0378h.
+ Cable Type = 1, Revision = 3.
+ Setting cable speed to 5 MHz.
+Cable connection established.
+// *** BATCH CMD : identify
+Identifying chain contents ....Version is 0001
+'1': : Manufacturer's ID =Xilinx xc2vp30, Version : 1
+INFO:iMPACT:1777 - 
+   Reading c:/Xilinx/virtex2p/data/xc2vp30.bsd...
+INFO:iMPACT:501 - '1': Added Device xc2vp30 successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Version is 0000
+'2': : Manufacturer's ID =Xilinx xccace, Version : 0
+INFO:iMPACT:1777 - 
+   Reading c:/Xilinx/acecf/data/xccace.bsd...
+INFO:iMPACT:501 - '1': Added Device xccace successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Version is 1111
+'3': : Manufacturer's ID =Xilinx xcf32p, Version : 15
+INFO:iMPACT:1777 - 
+   Reading c:/Xilinx/xcfp/data/xcf32p.bsd...
+INFO:iMPACT:501 - '1': Added Device xcf32p successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+done.
+Validating chain...
+Boundary-scan chain validated successfully.
+Elapsed time =      0 sec.
+// *** BATCH CMD : identifyMPM
+Elapsed time =      0 sec.
+// *** BATCH CMD : setAttribute -position 3 -attr configFileName -value
+"implementation/download.bit"
+'3': Loading file 'implementation/download.bit' ...
+done.
+INFO:iMPACT:501 - '3': Added Device xc2vp30 successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+// *** BATCH CMD : program -p 3 
+Validating chain...
+Boundary-scan chain validated successfully.
+'3':Programming  device...
+done.
+'3': Reading status register contents...
+CRC error                                         :         0
+Decryptor security set                            :         0
+DCM locked                                        :         1
+DCI matched                                       :         1
+legacy input error                                :         0
+status of GTS_CFG_B                               :         1
+status of GWE                                     :         1
+status of GHIGH                                   :         1
+value of MODE pin M0                              :         1
+value of MODE pin M1                              :         0
+value of MODE pin M2                              :         1
+value of CFG_RDY (INIT_B)                         :         1
+DONEIN input from DONE pin                        :         1
+IDCODE not validated while trying to write FDRI   :         0
+write FDRI issued before or after decrypt operation:         0
+Decryptor keys not used in proper sequence        :         0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 0111 1011 1000 0000 0000 0000 0000 
+INFO:iMPACT:579 - '3': Completed downloading bit file to device.
+INFO:iMPACT:580 - '3':Checking done pin ....done.
+'3': Programmed successfully.
+Elapsed time =      3 sec.
+// *** BATCH CMD : quit
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Done.
+At Local date and time: Mon Oct 23 11:30:17 2006
+Command xbash -q -c "cd /cygdrive/d/mpdma/; /usr/bin/make -f system.make program; exit;" Started...
+mb-gcc -O2 mb-bmp2jpg/bmp2jpg_mb.c mb-bmp2jpg/ColorConversion.c mb-bmp2jpg/dct.c mb-bmp2jpg/huffman.c mb-bmp2jpg/zzq.c  -o mb-bmp2jpg/executable.elf \
+   -mno-xl-soft-mul     -Wl,-T -Wl,mb-bmp2jpg_linker_script  -g   -I./microblaze_0/include/  -Imb-bmp2jpg/  -L./microblaze_0/lib/  \
+-xl-mode-executable  \
+-D__MICROBLAZE  
+mb-bmp2jpg/huffman.c: In function `HuffmanEncodeFinishSend':
+mb-bmp2jpg/huffman.c:689: warning: comparison is always true due to limited range of data type
+mb-size mb-bmp2jpg/executable.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24440	   3073	   7896	  35409	   8a51	mb-bmp2jpg/executable.elf
+Done.
+At Local date and time: Mon Oct 23 11:30:23 2006
+Command xbash -q -c "cd /cygdrive/d/mpdma/; /usr/bin/make -f system.make init_bram; exit;" Started...
+*********************************************
+Initializing BRAM contents of the bitstream
+*********************************************
+bitinit system.mhs -lp D:/XilinxXUP/lib/ -pe microblaze_0 mb-bmp2jpg/executable.elf  -pe microblaze_2 mb-dct/executable.elf  \
+-bt implementation/system.bit -o implementation/download.bit
+
+bitinit version Xilinx EDK 7.1.2 Build EDK_H.12.5.1
+Copyright (c) Xilinx Inc. 2002.
+
+Parsing MHS File system.mhs...
+Sourcing tcl file
+C:/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v4_00_a/data/microblaze_v2_1_0.
+tcl ...
+Sourcing tcl file
+C:/EDK/hw/XilinxProcessorIPLib/pcores/lmb_v10_v1_00_a/data/lmb_v10_v2_1_0.tcl
+...
+Sourcing tcl file
+C:/EDK/hw/XilinxProcessorIPLib/pcores/lmb_bram_if_cntlr_v1_00_b/data/lmb_bram_if
+_cntlr_v2_1_0.tcl ...
+Sourcing tcl file
+C:/EDK/hw/XilinxProcessorIPLib/pcores/opb_sysace_v1_00_c/data/opb_sysace_v2_1_0.
+tcl ...
+Sourcing tcl file
+C:/EDK/hw/XilinxProcessorIPLib/pcores/opb_ddr_v2_00_b/data/opb_ddr_v2_1_0.tcl
+...
+
+Overriding IP level properties ...
+microblaze (microblaze_0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:60 - tool overriding c_family value virtex2 to 
+microblaze (microblaze_0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:61 - tool overriding c_instance value microblaze to microblaze_0
+microblaze (microblaze_0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:90 - tcl overriding C_ADDR_TAG_BITS value 17 to 0
+microblaze (microblaze_0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:97 - tcl overriding C_DCACHE_ADDR_TAG value 17 to 0
+microblaze (microblaze_2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:60 - tool overriding c_family value virtex2 to 
+microblaze (microblaze_2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:61 - tool overriding c_instance value microblaze to microblaze_2
+microblaze (microblaze_2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:90 - tcl overriding C_ADDR_TAG_BITS value 17 to 0
+microblaze (microblaze_2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:97 - tcl overriding C_DCACHE_ADDR_TAG value 17 to 0
+opb_mdm (debug_module) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\opb_mdm_v2_00_a\data\opb_mdm_v2_1_0.mpd:38
+- tool overriding c_family value virtex2 to 
+bram_block (lmb_bram0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\data\bram_block_v2_1_0.
+mpd:39 - tool overriding c_family value virtex2 to 
+bram_block (lmb_bram2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\data\bram_block_v2_1_0.
+mpd:39 - tool overriding c_family value virtex2 to 
+opb_ddr (ddr_256mb_32mx64_rank1_row13_col10_cl2_5) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\opb_ddr_v2_00_b\data\opb_ddr_v2_1_0.mpd:42
+- tool overriding c_family value virtex2 to 
+dcm_module (dcm_0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\dcm_module_v1_00_a\data\dcm_module_v2_1_0.
+mpd:56 - tool overriding c_family value virtex2 to 
+dcm_module (dcm_1) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\dcm_module_v1_00_a\data\dcm_module_v2_1_0.
+mpd:56 - tool overriding c_family value virtex2 to 
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+Address Map for Processor microblaze_0
+  (0x00000000-0x0000ffff) dlmb_cntlr0	dlmb0
+  (0x00000000-0x0000ffff) ilmb_cntlr0	ilmb0
+  (0x30000000-0x3fffffff) DDR_256MB_32MX64_rank1_row13_col10_cl2_5	mb_opb
+  (0x40600000-0x4060ffff) RS232_Uart_1	mb_opb
+  (0x41400000-0x4140ffff) debug_module	mb_opb
+  (0x41800000-0x4180ffff) SysACE_CompactFlash	mb_opb
+Address Map for Processor microblaze_2
+  (0x00000000-0x00001fff) dlmb_cntlr2	dlmb2
+  (0x00000000-0x00001fff) ilmb_cntlr2	ilmb2
+  (0x30000000-0x3fffffff) DDR_256MB_32MX64_rank1_row13_col10_cl2_5	mb_opb
+  (0x40600000-0x4060ffff) RS232_Uart_1	mb_opb
+  (0x41400000-0x4140ffff) debug_module	mb_opb
+  (0x41800000-0x4180ffff) SysACE_CompactFlash	mb_opb
+
+Initializing Memory...
+Checking ELFs associated with MICROBLAZE instance microblaze_0 for overlap...
+
+
+Analyzing file mb-bmp2jpg/executable.elf...
+Checking ELFs associated with MICROBLAZE instance microblaze_2 for overlap...
+
+
+Analyzing file mb-dct/executable.elf...
+INFO:MDT - BRAM lmb_bram0 will be initialized with ELF of processor microblaze_0
+INFO:MDT - BRAM lmb_bram2 will be initialized with ELF of processor microblaze_2
+Running Data2Mem with the following command:
+data2mem -bm implementation/system_bd -bt implementation/system.bit  -bd
+mb-bmp2jpg/executable.elf tag lmb_bram0  -bd mb-dct/executable.elf tag lmb_bram2
+ -o b implementation/download.bit 
+Memory Initialization completed successfully.
+Done.
+At Local date and time: Mon Oct 23 11:30:29 2006
+Command xbash -q -c "cd /cygdrive/d/mpdma/; /usr/bin/make -f system.make download; exit;" Started...
+
+*********************************************
+Downloading Bitstream onto the target board
+*********************************************
+impact -batch etc/download.cmd
+Release 7.1.02i - iMPACT H.42
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+No resources.
+Connecting to cable (USB Port).
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 7.0.0.0. LPT base address = 0378h.
+ ECP base address = 0778h.
+ ECP hardware is detected.
+Cable connection established.
+Connecting to cable (Parallel Port - LPT1) in ECP mode.
+Checking cable driver.
+ Driver xpc4drvr.sys version = 1.0.4.0. LPT base address = 0378h.
+ Cable Type = 1, Revision = 3.
+ Setting cable speed to 5 MHz.
+Cable connection established.
+// *** BATCH CMD : identify
+Identifying chain contents ....Version is 0001
+'1': : Manufacturer's ID =Xilinx xc2vp30, Version : 1
+INFO:iMPACT:1777 - 
+   Reading c:/Xilinx/virtex2p/data/xc2vp30.bsd...
+INFO:iMPACT:501 - '1': Added Device xc2vp30 successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Version is 0000
+'2': : Manufacturer's ID =Xilinx xccace, Version : 0
+INFO:iMPACT:1777 - 
+   Reading c:/Xilinx/acecf/data/xccace.bsd...
+INFO:iMPACT:501 - '1': Added Device xccace successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Version is 1111
+'3': : Manufacturer's ID =Xilinx xcf32p, Version : 15
+INFO:iMPACT:1777 - 
+   Reading c:/Xilinx/xcfp/data/xcf32p.bsd...
+INFO:iMPACT:501 - '1': Added Device xcf32p successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+done.
+Validating chain...
+Boundary-scan chain validated successfully.
+Elapsed time =      1 sec.
+// *** BATCH CMD : identifyMPM
+Elapsed time =      0 sec.
+// *** BATCH CMD : setAttribute -position 3 -attr configFileName -value
+"implementation/download.bit"
+'3': Loading file 'implementation/download.bit' ...
+done.
+INFO:iMPACT:501 - '3': Added Device xc2vp30 successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+// *** BATCH CMD : program -p 3 
+Validating chain...
+Boundary-scan chain validated successfully.
+'3':Programming  device...
+done.
+'3': Reading status register contents...
+CRC error                                         :         0
+Decryptor security set                            :         0
+DCM locked                                        :         1
+DCI matched                                       :         1
+legacy input error                                :         0
+status of GTS_CFG_B                               :         1
+status of GWE                                     :         1
+status of GHIGH                                   :         1
+value of MODE pin M0                              :         1
+value of MODE pin M1                              :         0
+value of MODE pin M2                              :         1
+value of CFG_RDY (INIT_B)                         :         1
+DONEIN input from DONE pin                        :         1
+IDCODE not validated while trying to write FDRI   :         0
+write FDRI issued before or after decrypt operation:         0
+Decryptor keys not used in proper sequence        :         0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 0111 1011 1000 0000 0000 0000 0000 
+INFO:iMPACT:579 - '3': Completed downloading bit file to device.
+INFO:iMPACT:580 - '3':Checking done pin ....done.
+'3': Programmed successfully.
+Elapsed time =      4 sec.
+// *** BATCH CMD : quit
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Done.
+At Local date and time: Mon Oct 23 11:31:14 2006
+Command xbash -q -c "cd /cygdrive/d/mpdma/; /usr/bin/make -f system.make clean; exit;" Started...
+rm -f implementation/system.ngc
+rm -f implementation/system.bmm
+rm -f implementation/system.bit
+rm -f implementation/system.ncd
+rm -f implementation/system_bd.bmm 
+rm -rf implementation synthesis xst hdl
+rm -rf xst.srp system.srp
+rm -rf microblaze_0/lib/
+rm -rf microblaze_2/lib/
+rm -f mb-bmp2jpg/executable.elf 
+rm -f mb-dct/executable.elf 
+rm -rf simulation/behavioral
+rm -rf virtualplatform
+rm -f _impact.cmd
+Done.

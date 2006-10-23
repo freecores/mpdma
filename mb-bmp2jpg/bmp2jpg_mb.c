@@ -98,8 +98,8 @@ int main()
   unsigned int col, cols, row, rows;
   int compression;
   int sample;
-  char* bmpfilename = "image03.bmp";
-  char* jpgfilename = "image03.jpg";
+  char* bmpfilename = "image01.bmp";
+  char* jpgfilename = "image01.jpg";
   int bmpsizelimit = 2*1024*1024;
 
   compression = 0;
