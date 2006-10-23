@@ -13551,3 +13551,22 @@ rm -rf virtualplatform
 rm -f _impact.cmd
 Done.
 No changes to be saved in XMP file
+Xilinx Platform Studio (XPS)
+Xilinx EDK 7.1.2 Build EDK_H.12.5.1
+
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+WARNING:Portability:111 - Message file "MDT.msg" wasn't found.
+Assigned Driver cpu 1.00.a for instance microblaze_1
+Assigned Os standalone 1.00.a for processor instance microblaze_1
+Assigned Driver bram 1.00.a for instance lmb_bram_if_cntlr_0
+Assigned Driver bram 1.00.a for instance lmb_bram_if_cntlr_1
+Assigned Driver generic 1.00.a for instance fifo_link_0
+
+Saving MSS changes, if any.
+
+Loading Project File..
+
+Saving MSS changes, if any.
+
+Loading Project File..

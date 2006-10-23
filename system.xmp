@@ -34,6 +34,9 @@ XmdStub: 0
 Processor: microblaze_2
 BootLoop: 0
 XmdStub: 0
+Processor: microblaze_3
+BootLoop: 0
+XmdStub: 0
 SwProj: TestApp_Memory
 Processor: microblaze_0
 Executable: TestApp_Memory/executable.elf
