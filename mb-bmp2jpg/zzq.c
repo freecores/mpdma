@@ -1,3 +1,30 @@
+#include "xparameters.h"
+#include "xutil.h"
+#include "mb_interface.h"
+#include "fifo_link.h"
+
+#include "ejpgl.h"
+
+int zzq_encode_init_start(int compression) {
+
+	return 0;
+	
+}
+
+int zzq_encode_end_done() {
+
+	return 0;
+	
+}
+
+void zzq_encode(signed short pixelmatrix[MATRIX_SIZE][MATRIX_SIZE], int color)
+{
+
+
+}
+
+#if 0
+
 //---------------------------------------------------------------------------
 #include <stdio.h>
 #include "zzq.h"
@@ -77,4 +104,7 @@ void zzq_encode(signed short pixelmatrix[MATRIX_SIZE][MATRIX_SIZE], int color)
 
 }
 //---------------------------------------------------------------------------
+
+
+#endif
  

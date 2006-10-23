@@ -1,4 +1,3 @@
-
 #include "xparameters.h"
 #include "xutil.h"
 #include "mb_interface.h"
@@ -6,16 +5,72 @@
 
 #include "ejpgl.h"
 
+#define XPAR_FSL_FIFO_LINK_0_INPUT_SLOT_ID 0
+#define  XPAR_FSL_FIFO_LINK_0_OUTPUT_SLOT_ID 0
+
+
 int dct_init_start() {
 
 	return 0;
 
 }
 
-signed short dctresult[MATRIX_SIZE][MATRIX_SIZE];
+int dct_end_done() {
+	int msg;
 
-#define XPAR_FSL_FIFO_LINK_0_INPUT_SLOT_ID 0
-#define  XPAR_FSL_FIFO_LINK_0_OUTPUT_SLOT_ID 0
+	msg=0xff;
+
+	write_into_fsl(msg, XPAR_FSL_FIFO_LINK_0_OUTPUT_SLOT_ID);	
+	return 0;
+
+}
+
+void put_char(unsigned char c);
+
+void check_fsl() {
+	unsigned long result;
+	unsigned long status;
+	unsigned char ch;
+
+	for (;;) {
+       	microblaze_nbread_datafsl(result, 0);
+       	asm volatile ("mfs %0, rmsr" : "=d" (status));
+       	if (status & 0x80000000) return;
+//       	xil_printf("-->%x-%x\r\n", result, status);
+       	ch = result;
+       	put_char(ch);
+		}
+	return;
+
+}
+
+void dct(signed char pixels[8][8], int color)
+{
+	int i;
+	long result;
+
+	check_fsl();
+	write_into_fsl(color, XPAR_FSL_FIFO_LINK_0_OUTPUT_SLOT_ID);	
+
+       for (i=0; i<64; i++) {
+	   	check_fsl();
+       	write_into_fsl(((char*)pixels)[i], XPAR_FSL_FIFO_LINK_0_OUTPUT_SLOT_ID);	
+       	}
+
+/*	for (i=0; i<64; i++){
+       	read_from_fsl(result, XPAR_FSL_FIFO_LINK_0_INPUT_SLOT_ID);
+		((short*)dctresult)[i] = result;
+		} */
+
+// Read from FSL in non-blocking mode
+	check_fsl();
+
+}
+
+
+
+#if 0
+signed short dctresult[MATRIX_SIZE][MATRIX_SIZE];
 
 void dct(signed char pixels[8][8], int color)
 {
@@ -36,6 +91,8 @@ void dct(signed char pixels[8][8], int color)
 	zzq_encode(dctresult, color);
 
 }
+
+#endif
 
 #if 0
 #include <stdio.h>
@@ -181,3 +238,4 @@ printf("\n");
 }
 */
 #endif
+

@@ -19,6 +19,18 @@ cb =1
 cr= 2
 */
 //---------------------------------------------------------------------------
+
+int vlc_init_start() {
+
+	return 0;
+
+}
+
+void vlc_end_done() {
+
+}
+
+#if 0
 #include <stdio.h>
 
 static unsigned int vlc_remaining;
@@ -769,3 +781,6 @@ char EncodeDataUnit(char dataunit[64], unsigned int color)
  	dcvalue[color] = last_dc_value;
         return 0;
 }
+
+
+#endif

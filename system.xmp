@@ -103,3 +103,25 @@ StackSize:
 HeapSize: 
 LinkerScript: 
 ProgCCFlags: -D__MICROBLAZE
+SwProj: mb-vlc
+Processor: microblaze_3
+Executable: mb-vlc/executable.elf
+Source: mb-vlc/mb-huffman.c
+Source: mb-vlc/mb-zzq.c
+Header: mb-vlc/ejpgl.h
+Header: mb-vlc/fifo_link.h
+Header: mb-vlc/mb-huffman.h
+Header: mb-vlc/mb-zzq.h
+DefaultInit: EXECUTABLE
+InitBram: 1
+Active: 1
+CompilerOptLevel: 2
+GlobPtrOpt: 0
+DebugSym: 1
+AsmOpt: 
+LinkOpt: 
+ProgStart: 
+StackSize: 
+HeapSize: 
+LinkerScript: 
+ProgCCFlags: -D__MICROBLAZE

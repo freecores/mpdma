@@ -98,8 +98,8 @@ int main()
   unsigned int col, cols, row, rows;
   int compression;
   int sample;
-  char* bmpfilename = "image01.bmp";
-  char* jpgfilename = "image01.jpg";
+  char* bmpfilename = "image06.bmp";
+  char* jpgfilename = "image06.jpg";
   int bmpsizelimit = 2*1024*1024;
 
   compression = 0;
@@ -178,7 +178,10 @@ int main()
 	}
    }
 						
-   HuffmanEncodeFinishSend();
+   vlc_end_done();
+   zzq_encode_end_done();
+   dct_end_done();
+
    xil_printf("\r\nProcessed %d %dx%d-blocks.\r\n",(row-1)*cols+col,MATRIX_SIZE,MATRIX_SIZE);
    writejpegfooter(outfile);
    

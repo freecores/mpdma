@@ -95,16 +95,24 @@ main()
   for (;;) {
 	read_from_fsl(color, XPAR_FSL_FIFO_LINK_0_INPUT_SLOT_ID);
 
-	for (i=0; i<64; i++) {
-       	read_from_fsl(result, XPAR_FSL_FIFO_LINK_0_INPUT_SLOT_ID);
-		((signed char*)ipixels)[i]=result;
+	if (color==0xff) {
+         	write_into_fsl(color, XPAR_FSL_FIFO_LINK_0_OUTPUT_SLOT_ID);	
 		}
+	else {
+         	for (i=0; i<64; i++) {
+                	read_from_fsl(result, XPAR_FSL_FIFO_LINK_0_INPUT_SLOT_ID);
+         		((signed char*)ipixels)[i]=result;
+         		}
+         
+              dct(ipixels, color);
+         
+         	write_into_fsl(color, XPAR_FSL_FIFO_LINK_0_OUTPUT_SLOT_ID);	
+         	
+         	for (i=0; i<64; i++) {
+                	write_into_fsl(((short*)dctresult)[i], XPAR_FSL_FIFO_LINK_0_OUTPUT_SLOT_ID);	
+         		}
+           	}
 
-      dct(ipixels, color);
-
-	for (i=0; i<64; i++) {
-       	write_into_fsl(((short*)dctresult)[i], XPAR_FSL_FIFO_LINK_0_OUTPUT_SLOT_ID);	
-		}
-  	}
+	}
 
 }

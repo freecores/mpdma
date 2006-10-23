@@ -13570,3 +13570,3330 @@ Loading Project File..
 Saving MSS changes, if any.
 
 Loading Project File..
+At Local date and time: Mon Oct 23 11:47:58 2006
+Command xbash -q -c "cd /cygdrive/d/mpdma/; /usr/bin/make -f system.make bits; exit;" Started...
+****************************************************
+Creating system netlist for hardware specification..
+****************************************************
+platgen -p xc2vp30ff896-7 -lang vhdl -lp D:/XilinxXUP/lib/  -st xst system.mhs
+
+Release Xilinx EDK 7.1.2 - platgen EDK_H.12.5.1
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Command Line: platgen -p xc2vp30ff896-7 -lang vhdl -lp D:/XilinxXUP/lib/ -st xst
+system.mhs 
+Parse system.mhs ...
+
+Read MPD definitions ...
+Sourcing tcl file
+C:/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v4_00_a/data/microblaze_v2_1_0.
+tcl ...
+Sourcing tcl file
+C:/EDK/hw/XilinxProcessorIPLib/pcores/lmb_v10_v1_00_a/data/lmb_v10_v2_1_0.tcl
+...
+Sourcing tcl file
+C:/EDK/hw/XilinxProcessorIPLib/pcores/lmb_bram_if_cntlr_v1_00_b/data/lmb_bram_if
+_cntlr_v2_1_0.tcl ...
+Sourcing tcl file
+C:/EDK/hw/XilinxProcessorIPLib/pcores/opb_sysace_v1_00_c/data/opb_sysace_v2_1_0.
+tcl ...
+Sourcing tcl file
+C:/EDK/hw/XilinxProcessorIPLib/pcores/opb_ddr_v2_00_b/data/opb_ddr_v2_1_0.tcl
+...
+
+Overriding IP level properties ...
+microblaze (microblaze_0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:60 - tool overriding c_family value virtex2 to virtex2p
+microblaze (microblaze_0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:61 - tool overriding c_instance value microblaze to microblaze_0
+microblaze (microblaze_0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:90 - tcl overriding C_ADDR_TAG_BITS value 17 to 0
+microblaze (microblaze_0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:97 - tcl overriding C_DCACHE_ADDR_TAG value 17 to 0
+microblaze (microblaze_2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:60 - tool overriding c_family value virtex2 to virtex2p
+microblaze (microblaze_2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:61 - tool overriding c_instance value microblaze to microblaze_2
+microblaze (microblaze_2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:90 - tcl overriding C_ADDR_TAG_BITS value 17 to 0
+microblaze (microblaze_2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:97 - tcl overriding C_DCACHE_ADDR_TAG value 17 to 0
+microblaze (microblaze_3) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:60 - tool overriding c_family value virtex2 to virtex2p
+microblaze (microblaze_3) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:61 - tool overriding c_instance value microblaze to microblaze_3
+microblaze (microblaze_3) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:90 - tcl overriding C_ADDR_TAG_BITS value 17 to 0
+microblaze (microblaze_3) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:97 - tcl overriding C_DCACHE_ADDR_TAG value 17 to 0
+opb_mdm (debug_module) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\opb_mdm_v2_00_a\data\opb_mdm_v2_1_0.mpd:38
+- tool overriding c_family value virtex2 to virtex2p
+bram_block (lmb_bram0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\data\bram_block_v2_1_0.
+mpd:39 - tool overriding c_family value virtex2 to virtex2p
+bram_block (lmb_bram2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\data\bram_block_v2_1_0.
+mpd:39 - tool overriding c_family value virtex2 to virtex2p
+bram_block (lmb_bram3) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\data\bram_block_v2_1_0.
+mpd:39 - tool overriding c_family value virtex2 to virtex2p
+opb_ddr (ddr_256mb_32mx64_rank1_row13_col10_cl2_5) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\opb_ddr_v2_00_b\data\opb_ddr_v2_1_0.mpd:42
+- tool overriding c_family value virtex2 to virtex2p
+dcm_module (dcm_0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\dcm_module_v1_00_a\data\dcm_module_v2_1_0.
+mpd:56 - tool overriding c_family value virtex2 to virtex2p
+dcm_module (dcm_1) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\dcm_module_v1_00_a\data\dcm_module_v2_1_0.
+mpd:56 - tool overriding c_family value virtex2 to virtex2p
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+Address Map for Processor microblaze_0
+  (0x00000000-0x0000ffff) dlmb_cntlr0	dlmb0
+  (0x00000000-0x0000ffff) ilmb_cntlr0	ilmb0
+  (0x30000000-0x3fffffff) DDR_256MB_32MX64_rank1_row13_col10_cl2_5	mb_opb
+  (0x40600000-0x4060ffff) RS232_Uart_1	mb_opb
+  (0x41400000-0x4140ffff) debug_module	mb_opb
+  (0x41800000-0x4180ffff) SysACE_CompactFlash	mb_opb
+Address Map for Processor microblaze_2
+  (0x00000000-0x00001fff) dlmb_cntlr2	dlmb2
+  (0x00000000-0x00001fff) ilmb_cntlr2	ilmb2
+  (0x30000000-0x3fffffff) DDR_256MB_32MX64_rank1_row13_col10_cl2_5	mb_opb
+  (0x40600000-0x4060ffff) RS232_Uart_1	mb_opb
+  (0x41400000-0x4140ffff) debug_module	mb_opb
+  (0x41800000-0x4180ffff) SysACE_CompactFlash	mb_opb
+Address Map for Processor microblaze_3
+  (0x00000000-0x00001fff) dlmb_cntlr3	dlmb3
+  (0x00000000-0x00001fff) ilmb_cntlr3	ilmb3
+  (0x30000000-0x3fffffff) DDR_256MB_32MX64_rank1_row13_col10_cl2_5	mb_opb
+  (0x40600000-0x4060ffff) RS232_Uart_1	mb_opb
+  (0x41400000-0x4140ffff) debug_module	mb_opb
+  (0x41800000-0x4180ffff) SysACE_CompactFlash	mb_opb
+
+Check platform configuration ...
+opb_v20 (mb_opb) - D:\mpdma\system.mhs:100 - 6 master(s) : 4 slave(s)
+lmb_v10 (ilmb0) - D:\mpdma\system.mhs:126 - 1 master(s) : 1 slave(s)
+lmb_v10 (dlmb0) - D:\mpdma\system.mhs:134 - 1 master(s) : 1 slave(s)
+lmb_v10 (ilmb2) - D:\mpdma\system.mhs:142 - 1 master(s) : 1 slave(s)
+lmb_v10 (dlmb2) - D:\mpdma\system.mhs:150 - 1 master(s) : 1 slave(s)
+lmb_v10 (ilmb3) - D:\mpdma\system.mhs:158 - 1 master(s) : 1 slave(s)
+lmb_v10 (dlmb3) - D:\mpdma\system.mhs:166 - 1 master(s) : 1 slave(s)
+fsl_v20 (fsl0m) - D:\mpdma\system.mhs:174 - 1 master(s) : 1 slave(s)
+fsl_v20 (fsl0s) - D:\mpdma\system.mhs:183 - 1 master(s) : 1 slave(s)
+fsl_v20 (fsl2m) - D:\mpdma\system.mhs:192 - 1 master(s) : 1 slave(s)
+fsl_v20 (fsl2s) - D:\mpdma\system.mhs:201 - 1 master(s) : 1 slave(s)
+fsl_v20 (fsl3m) - D:\mpdma\system.mhs:210 - 1 master(s) : 1 slave(s)
+fsl_v20 (fsl3s) - D:\mpdma\system.mhs:219 - 1 master(s) : 1 slave(s)
+
+Check port drivers...
+
+Check platform address map ...
+
+Overriding system level properties ...
+opb_v20 (mb_opb) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\opb_v20_v1_10_c\data\opb_v20_v2_1_0.mpd:36
+- tool overriding c_num_masters value 4 to 6
+lmb_v10 (ilmb0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v1_00_a\data\lmb_v10_v2_1_0.mpd:36
+- tool overriding c_lmb_num_slaves value 4 to 1
+lmb_v10 (dlmb0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v1_00_a\data\lmb_v10_v2_1_0.mpd:36
+- tool overriding c_lmb_num_slaves value 4 to 1
+lmb_v10 (ilmb2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v1_00_a\data\lmb_v10_v2_1_0.mpd:36
+- tool overriding c_lmb_num_slaves value 4 to 1
+lmb_v10 (dlmb2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v1_00_a\data\lmb_v10_v2_1_0.mpd:36
+- tool overriding c_lmb_num_slaves value 4 to 1
+lmb_v10 (ilmb3) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v1_00_a\data\lmb_v10_v2_1_0.mpd:36
+- tool overriding c_lmb_num_slaves value 4 to 1
+lmb_v10 (dlmb3) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v1_00_a\data\lmb_v10_v2_1_0.mpd:36
+- tool overriding c_lmb_num_slaves value 4 to 1
+lmb_bram_if_cntlr (dlmb_cntlr0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\lmb_bram_if_cntlr_v1_00_b\data\lmb_bram_if
+_cntlr_v2_1_0.mpd:42 - tool overriding c_mask value 0x00800000 to 0x10c00000
+lmb_bram_if_cntlr (ilmb_cntlr0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\lmb_bram_if_cntlr_v1_00_b\data\lmb_bram_if
+_cntlr_v2_1_0.mpd:42 - tool overriding c_mask value 0x00800000 to 0x10c00000
+bram_block (lmb_bram0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\data\bram_block_v2_1_0.
+mpd:35 - tool overriding c_memsize value 2048 to 65536
+lmb_bram_if_cntlr (dlmb_cntlr2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\lmb_bram_if_cntlr_v1_00_b\data\lmb_bram_if
+_cntlr_v2_1_0.mpd:42 - tool overriding c_mask value 0x00800000 to 0x10c00000
+lmb_bram_if_cntlr (ilmb_cntlr2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\lmb_bram_if_cntlr_v1_00_b\data\lmb_bram_if
+_cntlr_v2_1_0.mpd:42 - tool overriding c_mask value 0x00800000 to 0x10c00000
+bram_block (lmb_bram2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\data\bram_block_v2_1_0.
+mpd:35 - tool overriding c_memsize value 2048 to 8192
+lmb_bram_if_cntlr (dlmb_cntlr3) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\lmb_bram_if_cntlr_v1_00_b\data\lmb_bram_if
+_cntlr_v2_1_0.mpd:42 - tool overriding c_mask value 0x00800000 to 0x10c00000
+lmb_bram_if_cntlr (ilmb_cntlr3) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\lmb_bram_if_cntlr_v1_00_b\data\lmb_bram_if
+_cntlr_v2_1_0.mpd:42 - tool overriding c_mask value 0x00800000 to 0x10c00000
+bram_block (lmb_bram3) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\data\bram_block_v2_1_0.
+mpd:35 - tool overriding c_memsize value 2048 to 8192
+
+Running DRC Tcl procedures for OPTION SYSLEVEL_DRC_PROC...
+Sourcing tcl file
+C:/EDK/hw/XilinxProcessorIPLib/pcores/ddr_v2_00_b/data/ddr_v2_1_0.tcl ...
+
+Performing System level DRCs on properties...
+
+Running UPDATE Tcl procedures for OPTION PLATGEN_SYSLEVEL_UPDATE_PROC...
+Sourcing tcl file
+C:/EDK/hw/XilinxProcessorIPLib/pcores/ddr_v2_00_b/data/ddr_v2_1_0.tcl ...
+INFO: The DDR_256MB_32MX64_rank1_row13_col10_cl2_5 core has constraints automatically generated by XPS in implementation/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper.ucf.
+It can be overridden by constraints placed in the system.ucf file.
+
+
+Modify defaults ...
+
+Processing licensed instances ...
+Completion time: 0.00 seconds
+
+Creating hardware output directories ...
+
+Managing hardware (BBD-specified) netlist files ...
+
+Managing cache ...
+
+Elaborating instances ...
+bram_block (lmb_bram0) - D:\mpdma\system.mhs:246 - elaborating IP
+bram_block (lmb_bram2) - D:\mpdma\system.mhs:271 - elaborating IP
+bram_block (lmb_bram3) - D:\mpdma\system.mhs:296 - elaborating IP
+
+Writing HDL for elaborated instances ...
+
+Inserting wrapper level ...
+Completion time: 7.00 seconds
+
+Constructing platform-level signal connectivity ...
+Completion time: 6.00 seconds
+
+Writing (top-level) BMM ...
+Writing BMM - D:\mpdma\implementation\system.bmm
+
+Writing (top-level and wrappers) HDL ...
+
+Generating synthesis project file ...
+
+Running XST synthesis ...
+INFO:MDT - The following instances are synthesized with XST. The MPD option
+   IMP_NETLIST=TRUE indicates that a NGC file is to be produced using XST
+   synthesis. IMP_NETLIST=FALSE (default) instances are not synthesized.
+microblaze_0_wrapper (microblaze_0) - D:\mpdma\system.mhs:48 - Running XST
+synthesis
+microblaze_2_wrapper (microblaze_2) - D:\mpdma\system.mhs:71 - Running XST
+synthesis
+microblaze_3_wrapper (microblaze_3) - D:\mpdma\system.mhs:88 - Running XST
+synthesis
+mb_opb_wrapper (mb_opb) - D:\mpdma\system.mhs:100 - Running XST synthesis
+debug_module_wrapper (debug_module) - D:\mpdma\system.mhs:108 - Running XST
+synthesis
+ilmb0_wrapper (ilmb0) - D:\mpdma\system.mhs:126 - Running XST synthesis
+dlmb0_wrapper (dlmb0) - D:\mpdma\system.mhs:134 - Running XST synthesis
+ilmb2_wrapper (ilmb2) - D:\mpdma\system.mhs:142 - Running XST synthesis
+dlmb2_wrapper (dlmb2) - D:\mpdma\system.mhs:150 - Running XST synthesis
+ilmb3_wrapper (ilmb3) - D:\mpdma\system.mhs:158 - Running XST synthesis
+dlmb3_wrapper (dlmb3) - D:\mpdma\system.mhs:166 - Running XST synthesis
+fsl0m_wrapper (fsl0m) - D:\mpdma\system.mhs:174 - Running XST synthesis
+fsl0s_wrapper (fsl0s) - D:\mpdma\system.mhs:183 - Running XST synthesis
+fsl2m_wrapper (fsl2m) - D:\mpdma\system.mhs:192 - Running XST synthesis
+fsl2s_wrapper (fsl2s) - D:\mpdma\system.mhs:201 - Running XST synthesis
+fsl3m_wrapper (fsl3m) - D:\mpdma\system.mhs:210 - Running XST synthesis
+fsl3s_wrapper (fsl3s) - D:\mpdma\system.mhs:219 - Running XST synthesis
+dlmb_cntlr0_wrapper (dlmb_cntlr0) - D:\mpdma\system.mhs:228 - Running XST
+synthesis
+ilmb_cntlr0_wrapper (ilmb_cntlr0) - D:\mpdma\system.mhs:237 - Running XST
+synthesis
+lmb_bram0_wrapper (lmb_bram0) - D:\mpdma\system.mhs:246 - Running XST synthesis
+dlmb_cntlr2_wrapper (dlmb_cntlr2) - D:\mpdma\system.mhs:253 - Running XST
+synthesis
+ilmb_cntlr2_wrapper (ilmb_cntlr2) - D:\mpdma\system.mhs:262 - Running XST
+synthesis
+lmb_bram2_wrapper (lmb_bram2) - D:\mpdma\system.mhs:271 - Running XST synthesis
+dlmb_cntlr3_wrapper (dlmb_cntlr3) - D:\mpdma\system.mhs:278 - Running XST
+synthesis
+ilmb_cntlr3_wrapper (ilmb_cntlr3) - D:\mpdma\system.mhs:287 - Running XST
+synthesis
+lmb_bram3_wrapper (lmb_bram3) - D:\mpdma\system.mhs:296 - Running XST synthesis
+rs232_uart_1_wrapper (rs232_uart_1) - D:\mpdma\system.mhs:303 - Running XST
+synthesis
+sysace_compactflash_wrapper (sysace_compactflash) - D:\mpdma\system.mhs:319 -
+Running XST synthesis
+ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper
+(ddr_256mb_32mx64_rank1_row13_col10_cl2_5) - D:\mpdma\system.mhs:336 - Running
+XST synthesis
+sysclk_inv_wrapper (sysclk_inv) - D:\mpdma\system.mhs:380 - Running XST
+synthesis
+clk90_inv_wrapper (clk90_inv) - D:\mpdma\system.mhs:389 - Running XST synthesis
+ddr_clk90_inv_wrapper (ddr_clk90_inv) - D:\mpdma\system.mhs:398 - Running XST
+synthesis
+dcm_0_wrapper (dcm_0) - D:\mpdma\system.mhs:407 - Running XST synthesis
+dcm_1_wrapper (dcm_1) - D:\mpdma\system.mhs:423 - Running XST synthesis
+fifo02_wrapper (fifo02) - D:\mpdma\system.mhs:441 - Running XST synthesis
+fifo23_wrapper (fifo23) - D:\mpdma\system.mhs:448 - Running XST synthesis
+fifo30_wrapper (fifo30) - D:\mpdma\system.mhs:455 - Running XST synthesis
+
+Running NGCBUILD ...
+ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper
+(ddr_256mb_32mx64_rank1_row13_col10_cl2_5) - D:\mpdma\system.mhs:336 - Running
+NGCBUILD
+
+Rebuilding cache ...
+Total run time: 646.00 seconds
+Running synthesis...
+bash -c "cd synthesis; ./synthesis.sh; cd .."
+WARNING:Xst:1530 - You are using an evaluation version of Xilinx Software. In 26
+   days, this program will not operate. For more information about this product,
+   please refer to the Evaluation Agreement, which was shipped to you along with
+   the Evaluation CDs.
+   To purchase an annual license for this software, please contact your local
+   Field Applications Engineer (FAE) or salesperson. If you have any questions,
+   or if we can assist in any way, please send an email to: eval@xilinx.com
+   Thank You!
+Release 7.1.02i - xst H.42
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+--> 
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) HDL Analysis
+  4) HDL Synthesis
+  5) Advanced HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Final Report
+     7.1) Device utilization summary
+     7.2) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input Format                       : MIXED
+Input File Name                    : "system_xst.prj"
+
+---- Target Parameters
+Target Device                      : xc2vp30ff896-7
+Output File Name                   : "../implementation/system.ngc"
+
+---- Source Options
+Top Module Name                    : system
+
+---- Target Options
+Add IO Buffers                     : NO
+
+---- General Options
+Optimization Goal                  : speed
+RTL Output                         : YES
+Hierarchy Separator                : /
+
+=========================================================================
+
+WARNING:Xst:29 - Optimization Effort not specified
+The following parameters have been added:
+Optimization Effort                : 1
+
+=========================================================================
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "d:/mpdma/synthesis/../hdl/system.vhd" in Library work.
+Entity <system> compiled.
+Entity <system> (Architecture <STRUCTURE>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <system> (Architecture <STRUCTURE>).
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3142: Generating a Black Box for component <IBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3148: Generating a Black Box for component <OBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3154: Generating a Black Box for component <IBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3160: Generating a Black Box for component <OBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3166: Generating a Black Box for component <OBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3172: Generating a Black Box for component <OBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3178: Generating a Black Box for component <OBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3184: Generating a Black Box for component <OBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3190: Generating a Black Box for component <OBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3196: Generating a Black Box for component <OBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3202: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3210: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3218: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3226: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3234: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3242: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3250: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3258: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3266: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3274: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3282: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3290: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3298: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3306: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3314: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3322: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3330: Generating a Black Box for component <OBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3336: Generating a Black Box for component <OBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3342: Generating a Black Box for component <OBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3348: Generating a Black Box for component <IBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3354: Generating a Black Box for component <OBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3360: Generating a Black Box for component <OBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3366: Generating a Black Box for component <OBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3372: Generating a Black Box for component <OBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3378: Generating a Black Box for component <OBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3384: Generating a Black Box for component <OBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3390: Generating a Black Box for component <OBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3396: Generating a Black Box for component <OBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3402: Generating a Black Box for component <OBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3408: Generating a Black Box for component <OBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3414: Generating a Black Box for component <OBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3420: Generating a Black Box for component <OBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3426: Generating a Black Box for component <OBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3432: Generating a Black Box for component <OBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3438: Generating a Black Box for component <OBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3444: Generating a Black Box for component <OBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3450: Generating a Black Box for component <OBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3456: Generating a Black Box for component <OBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3462: Generating a Black Box for component <OBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3468: Generating a Black Box for component <OBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3474: Generating a Black Box for component <OBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3480: Generating a Black Box for component <OBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3486: Generating a Black Box for component <OBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3492: Generating a Black Box for component <OBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3498: Generating a Black Box for component <OBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3504: Generating a Black Box for component <OBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3510: Generating a Black Box for component <OBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3516: Generating a Black Box for component <OBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3522: Generating a Black Box for component <OBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3528: Generating a Black Box for component <OBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3534: Generating a Black Box for component <OBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3540: Generating a Black Box for component <OBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3546: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3554: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3562: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3570: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3578: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3586: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3594: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3602: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3610: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3618: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3626: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3634: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3642: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3650: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3658: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3666: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3674: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3682: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3690: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3698: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3706: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3714: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3722: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3730: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3738: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3746: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3754: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3762: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3770: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3778: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3786: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3794: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3802: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3810: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3818: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3826: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3834: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3842: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3850: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3858: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3866: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3874: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3882: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3890: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3898: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3906: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3914: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3922: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3930: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3938: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3946: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3954: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3962: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3970: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3978: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3986: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 3994: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 4002: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 4010: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 4018: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 4026: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 4034: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 4042: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 4050: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 4058: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 4066: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 4074: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 4082: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 4090: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 4098: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 4106: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 4114: Generating a Black Box for component <IOBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 4122: Generating a Black Box for component <OBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 4128: Generating a Black Box for component <OBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 4134: Generating a Black Box for component <IBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 4140: Generating a Black Box for component <OBUF>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 4146: Generating a Black Box for component <IBUFG>.
+WARNING:Xst:766 - "d:/mpdma/synthesis/../hdl/system.vhd" line 4152: Generating a Black Box for component <IBUF>.
+Entity <system> analyzed. Unit <system> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <system>.
+    Related source file is "d:/mpdma/synthesis/../hdl/system.vhd".
+WARNING:Xst:646 - Signal <pgassign2<3>> is assigned but never used.
+WARNING:Xst:646 - Signal <pgassign3<0>> is assigned but never used.
+Unit <system> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+Loading device for application Rf_Device from file '2vp30.nph' in environment c:/Xilinx.
+
+Optimizing unit <system> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : ../implementation/system.ngr
+Top Level Output File Name         : ../implementation/system.ngc
+Output Format                      : ngc
+Optimization Goal                  : speed
+Keep Hierarchy                     : no
+
+Design Statistics
+# IOs                              : 140
+
+Cell Usage :
+# BELS                             : 2
+#      GND                         : 1
+#      VCC                         : 1
+# IO Buffers                       : 140
+#      IBUF                        : 5
+#      IBUFG                       : 1
+#      IOBUF                       : 88
+#      OBUF                        : 46
+# Others                           : 37
+#      clk90_inv_wrapper           : 1
+#      dcm_0_wrapper               : 1
+#      dcm_1_wrapper               : 1
+#      ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper: 1
+#      ddr_clk90_inv_wrapper       : 1
+#      debug_module_wrapper        : 1
+#      dlmb0_wrapper               : 1
+#      dlmb2_wrapper               : 1
+#      dlmb3_wrapper               : 1
+#      dlmb_cntlr0_wrapper         : 1
+#      dlmb_cntlr2_wrapper         : 1
+#      dlmb_cntlr3_wrapper         : 1
+#      fifo02_wrapper              : 1
+#      fifo23_wrapper              : 1
+#      fifo30_wrapper              : 1
+#      fsl0m_wrapper               : 1
+#      fsl0s_wrapper               : 1
+#      fsl2m_wrapper               : 1
+#      fsl2s_wrapper               : 1
+#      fsl3m_wrapper               : 1
+#      fsl3s_wrapper               : 1
+#      ilmb0_wrapper               : 1
+#      ilmb2_wrapper               : 1
+#      ilmb3_wrapper               : 1
+#      ilmb_cntlr0_wrapper         : 1
+#      ilmb_cntlr2_wrapper         : 1
+#      ilmb_cntlr3_wrapper         : 1
+#      lmb_bram0_wrapper           : 1
+#      lmb_bram2_wrapper           : 1
+#      lmb_bram3_wrapper           : 1
+#      mb_opb_wrapper              : 1
+#      microblaze_0_wrapper        : 1
+#      microblaze_2_wrapper        : 1
+#      microblaze_3_wrapper        : 1
+#      rs232_uart_1_wrapper        : 1
+#      sysace_compactflash_wrapper : 1
+#      sysclk_inv_wrapper          : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 2vp30ff896-7 
+
+ Number of bonded IOBs:                140  out of    556    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -7
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 2.924ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 3668 / 3580
+-------------------------------------------------------------------------
+Delay:               2.924ns (Levels of Logic = 1)
+  Source:            ddr_256mb_32mx64_rank1_row13_col10_cl2_5:DDR_DQS_O<7> (PAD)
+  Destination:       fpga_0_DDR_256MB_32MX64_rank1_row13_col10_cl2_5_DDR_DQS_pin<7> (PAD)
+
+  Data Path: ddr_256mb_32mx64_rank1_row13_col10_cl2_5:DDR_DQS_O<7> to fpga_0_DDR_256MB_32MX64_rank1_row13_col10_cl2_5_DDR_DQS_pin<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper:DDR_DQS_O<7>    1   0.000   0.332  ddr_256mb_32mx64_rank1_row13_col10_cl2_5 (fpga_0_DDR_256MB_32MX64_rank1_row13_col10_cl2_5_DDR_DQS_O<7>)
+     IOBUF:I->IO               2.592          iobuf_69 (fpga_0_DDR_256MB_32MX64_rank1_row13_col10_cl2_5_DDR_DQS_pin<7>)
+    ----------------------------------------
+    Total                      2.924ns (2.592ns logic, 0.332ns route)
+                                       (88.7% logic, 11.3% route)
+
+=========================================================================
+CPU : 21.54 / 22.00 s | Elapsed : 22.00 / 22.00 s
+ 
+--> 
+
+Total memory usage is 164472 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  144 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
+Copying Xilinx Implementation tool scripts..
+*********************************************
+Running Xilinx Implementation tools..
+*********************************************
+xflow -wd implementation -p xc2vp30ff896-7 -implement fast_runtime.opt system.ngc
+Release 7.1.02i - Xflow H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+xflow.exe -wd implementation -p xc2vp30ff896-7 -implement fast_runtime.opt
+system.ngc  
+.... Copying flowfile c:/Xilinx/xilinx/data/fpga.flw into working directory
+D:/mpdma/implementation 
+
+Using Flow File: D:/mpdma/implementation/fpga.flw 
+Using Option File(s): 
+ D:/mpdma/implementation/fast_runtime.opt 
+
+Creating Script File ... 
+
+#----------------------------------------------#
+# Starting program ngdbuild
+# ngdbuild -p xc2vp30ff896-7 -nt timestamp -bm system.bmm
+D:/mpdma/implementation/system.ngc -uc system.ucf system.ngd 
+#----------------------------------------------#
+Release 7.1.02i - ngdbuild H.42
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -p xc2vp30ff896-7 -nt timestamp -bm system.bmm -uc
+system.ucf D:/mpdma/implementation/system.ngc system.ngd 
+
+Reading NGO file 'D:/mpdma/implementation/system.ngc' ...
+Loading design module "D:/mpdma/implementation/microblaze_0_wrapper.ngc"...
+Loading design module "D:/mpdma/implementation/microblaze_2_wrapper.ngc"...
+Loading design module "D:/mpdma/implementation/microblaze_3_wrapper.ngc"...
+Loading design module "D:/mpdma/implementation/mb_opb_wrapper.ngc"...
+Loading design module "D:/mpdma/implementation/debug_module_wrapper.ngc"...
+Loading design module "D:/mpdma/implementation/ilmb0_wrapper.ngc"...
+Loading design module "D:/mpdma/implementation/dlmb0_wrapper.ngc"...
+Loading design module "D:/mpdma/implementation/ilmb2_wrapper.ngc"...
+Loading design module "D:/mpdma/implementation/dlmb2_wrapper.ngc"...
+Loading design module "D:/mpdma/implementation/ilmb3_wrapper.ngc"...
+Loading design module "D:/mpdma/implementation/dlmb3_wrapper.ngc"...
+Loading design module "D:/mpdma/implementation/fsl0m_wrapper.ngc"...
+Loading design module "D:/mpdma/implementation/fsl0s_wrapper.ngc"...
+Loading design module "D:/mpdma/implementation/fsl2m_wrapper.ngc"...
+Loading design module "D:/mpdma/implementation/fsl2s_wrapper.ngc"...
+Loading design module "D:/mpdma/implementation/fsl3m_wrapper.ngc"...
+Loading design module "D:/mpdma/implementation/fsl3s_wrapper.ngc"...
+Loading design module "D:/mpdma/implementation/dlmb_cntlr0_wrapper.ngc"...
+Loading design module "D:/mpdma/implementation/ilmb_cntlr0_wrapper.ngc"...
+Loading design module "D:/mpdma/implementation/lmb_bram0_wrapper.ngc"...
+Loading design module "D:/mpdma/implementation/dlmb_cntlr2_wrapper.ngc"...
+Loading design module "D:/mpdma/implementation/ilmb_cntlr2_wrapper.ngc"...
+Loading design module "D:/mpdma/implementation/lmb_bram2_wrapper.ngc"...
+Loading design module "D:/mpdma/implementation/dlmb_cntlr3_wrapper.ngc"...
+Loading design module "D:/mpdma/implementation/ilmb_cntlr3_wrapper.ngc"...
+Loading design module "D:/mpdma/implementation/lmb_bram3_wrapper.ngc"...
+Loading design module "D:/mpdma/implementation/rs232_uart_1_wrapper.ngc"...
+Loading design module
+"D:/mpdma/implementation/sysace_compactflash_wrapper.ngc"...
+Loading design module
+"D:/mpdma/implementation/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper.ngc"..
+.
+Loading design module "D:/mpdma/implementation/sysclk_inv_wrapper.ngc"...
+Loading design module "D:/mpdma/implementation/clk90_inv_wrapper.ngc"...
+Loading design module "D:/mpdma/implementation/ddr_clk90_inv_wrapper.ngc"...
+Loading design module "D:/mpdma/implementation/dcm_0_wrapper.ngc"...
+Loading design module "D:/mpdma/implementation/dcm_1_wrapper.ngc"...
+Loading design module "D:/mpdma/implementation/fifo02_wrapper.ngc"...
+Loading design module "D:/mpdma/implementation/fifo23_wrapper.ngc"...
+Loading design module "D:/mpdma/implementation/fifo30_wrapper.ngc"...
+
+Applying constraints in "system.ucf" to the design...
+
+Checking timing specifications ...
+INFO:XdmHelpers:851 - TNM "sys_clk_pin", used in period specification
+   "TS_sys_clk_pin", was traced into DCM instance "dcm_0/dcm_0/DCM_INST". The
+   following new TNM groups and period specifications were generated at the DCM
+   output(s):
+   CLK0: TS_dcm_0_dcm_0_CLK0_BUF=PERIOD dcm_0_dcm_0_CLK0_BUF
+TS_sys_clk_pin*1.000000 HIGH 50.000000%
+   CLK90: TS_dcm_0_dcm_0_CLK90_BUF=PERIOD dcm_0_dcm_0_CLK90_BUF
+TS_sys_clk_pin*1.000000 PHASE + 2.500000 nS HIGH 50.000000%
+
+Processing BMM file ...
+
+Checking expanded design ...
+WARNING:NgdBuild:443 - SFF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/MW_RD_WR_I/ADDR_SEL_SYNC_FIFO_I/I_VAC_CALC/Counter_Bit_I0/FD
+   RE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/MW_RD_WR_I/ADDR_SEL_SYNC_FIFO_I/I_VAC_CALC/Counter_Bit_I4/FD
+   RE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/MW_RD_WR_I/ADDR_SEL_SYNC_FIFO_I/I_VAC_CALC/Counter_Bit_I3/FD
+   RE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/MW_RD_WR_I/ADDR_SEL_SYNC_FIFO_I/I_VAC_CALC/Counter_Bit_I2/FD
+   RE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/MW_RD_WR_I/ADDR_SEL_SYNC_FIFO_I/I_VAC_CALC/Counter_Bit_I1/FD
+   RE_I' has unconnected output pin
+WARNING:NgdBuild:443 - SFF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/MW_RD_WR_I/ADDR_SEL_SYNC_FIFO_I/I_ADDR_CNTR/I_UP_DWN_COUNTER
+   /I_CARRY_OUT' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM0REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM1REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM2REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM3REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM4REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM5REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM6REG_SP/REG' has unconnected
+   output pin
+WARNING:N
+gdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM7REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM8REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM9REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM10REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM11REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM12REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM13REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM14REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM15REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM16REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM17REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM18REG_SP/REG' has unconnected
+   output
+ pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM19REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM20REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM21REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM22REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM23REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM24REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM25REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM26REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM27REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM28REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM29REG_SP/REG' has unconnected
+   outp
+ut pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM30REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM31REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM32REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM33REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM34REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM35REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM36REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM37REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM38REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM39REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM40REG_SP/REG' has unconnected
+   outp
+ut pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM41REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM42REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM43REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM44REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM45REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM46REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM47REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM48REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM49REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM50REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM51REG_SP/REG' has unconnected
+   outp
+ut pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM52REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM53REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM54REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM55REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM56REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM57REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM58REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM59REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM60REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM61REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM62REG_SP/REG' has unconnected
+   outp
+ut pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM63REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM64REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM65REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM66REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM67REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM68REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM69REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM70REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM71REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM72REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM73REG_SP/REG' has unconnected
+   outp
+ut pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM74REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM75REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM76REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM77REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM78REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM79REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM80REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM81REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM82REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM83REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM84REG_SP/REG' has unconnected
+   outp
+ut pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM85REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM86REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM87REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM88REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM89REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM90REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM91REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM92REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM93REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM94REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM95REG_SP/REG' has unconnected
+   outp
+ut pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM96REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM97REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM98REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM99REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM100REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM101REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM102REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM103REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM104REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM105REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/dis
+tmem/dist_mem/DPRAM/DPRAM0/DPRAM106REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM107REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM108REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM109REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM110REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM111REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM112REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM113REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM114REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM115REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM116REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM117REG_SP/REG' has unconnec
+ted
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM118REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM119REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM120REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM121REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM122REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM123REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM124REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM125REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM126REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/mem/distmem/dist_mem/DPRAM/DPRAM0/DPRAM127REG_SP/REG' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/control/read_blk/read_cnt/empty_blk/empty_flag_logic/almst_flag_bl
+k/m
+   odule_gen/2/carry_gen/skip_one/spacer_fdce' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'ddr_256mb_32mx64_rank1_row13_col10_cl2_5/ddr_256mb_32mx64_rank1_row13_col10_
+   cl2_5/DDR_CTRL_I/RDDATA_PATH_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapp
+   er_V2_ASYNCH_FIFO_I/ddr_256mb_32mx64_rank1_row13_col10_cl2_5_wrapper_async_fi
+   fo_v4_0/control/write_blk/write_cnt/full_blk/full_flag_logic/almst_flag_blk/m
+   odule_gen/2/carry_gen/skip_one/spacer_fdce' has unconnected output pin
+WARNING:NgdBuild:452 - logical net
+   'microblaze_0/microblaze_0/Data_Flow_I/word_r1_r2_unalignment' has no driver
+WARNING:NgdBuild:452 - logical net
+   'microblaze_0/microblaze_0/Data_Flow_I/word_r1_imm_unalignment' has no driver
+WARNING:NgdBuild:452 - logical net
+   'microblaze_0/microblaze_0/Data_Flow_I/halfword_unalignment' has no driver
+WARNING:NgdBuild:452 - logical net
+   'microblaze_2/microblaze_2/Data_Flow_I/word_r1_r2_unalignment' has no driver
+WARNING:NgdBuild:452 - logical net
+   'microblaze_2/microblaze_2/Data_Flow_I/word_r1_imm_unalignment' has no driver
+WARNING:NgdBuild:452 - logical net
+   'microblaze_2/microblaze_2/Data_Flow_I/halfword_unalignment' has no driver
+WARNING:NgdBuild:452 - logical net
+   'microblaze_3/microblaze_3/Data_Flow_I/word_r1_r2_unalignment' has no driver
+WARNING:NgdBuild:452 - logical net
+   'microblaze_3/microblaze_3/Data_Flow_I/word_r1_imm_unalignment' has no driver
+WARNING:NgdBuild:452 - logical net
+   'microblaze_3/microblaze_3/Data_Flow_I/halfword_unalignment' has no driver
+WARNING:NgdBuild:478 - clock net debug_module/bscan_drck1 with clock driver
+   debug_module/debug_module/BUFG_DRCK1 drives no clock pins
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings: 146
+
+Writing NGD file "system.ngd" ...
+
+Writing NGDBUILD log file "system.bld"...
+
+NGDBUILD done.
+
+
+
+#----------------------------------------------#
+# Starting program map
+# map -o system_map.ncd -pr b system.ngd system.pcf 
+#----------------------------------------------#
+Release 7.1.02i - Map H.42
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+Using target part "2vp30ff896-7".
+Mapping design into LUTs...
+Writing file system_map.ngm...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+Writing design file "system_map.ncd"...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:   14
+Logic Utilization:
+  Number of Slice Flip Flops:       2,646 out of  27,392    9%
+  Number of 4 input LUTs:           3,767 out of  27,392   13%
+Logic Distribution:
+  Number of occupied Slices:        4,885 out of  13,696   35%
+  Number of Slices containing only related logic:   4,885 out of   4,885  100%
+  Number of Slices containing unrelated logic:          0 out of   4,885    0%
+        *See NOTES below for an explanation of the effects of unrelated logic
+Total Number 4 input LUTs:          8,379 out of  27,392   30%
+  Number used as logic:             3,767
+  Number used as a route-thru:        118
+  Number used for Dual Port RAMs:   4,144
+    (Two LUTs used per Dual Port RAM)
+  Number used as Shift registers:     350
+
+  Number of bonded IOBs:              139 out of     556   25%
+    IOB Flip Flops:                   288
+    IOB Dual-Data Rate Flops:          87
+  Number of PPC405s:                   0 out of       2    0%
+  Number of Block RAMs:                40 out of     136   29%
+  Number of MULT18X18s:                 9 out of     136    6%
+  Number of GCLKs:                      5 out of      16   31%
+  Number of DCMs:                       2 out of       8   25%
+  Number of BSCANs:                     1 out of       1  100%
+  Number of GTs:                        0 out of       8    0%
+  Number of GT10s:                      0 out of       0    0%
+
+   Number of RPM macros:           11
+Total equivalent gate count for design:  3,281,925
+Additional JTAG gate count for IOBs:  6,672
+Peak Memory Usage:  278 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Mapping completed.
+See MAP report file "system_map.mrp" for details.
+
+
+
+#----------------------------------------------#
+# Starting program par
+# par -w -ol high system_map.ncd system.ncd system.pcf 
+#----------------------------------------------#
+Release 7.1.02i - par H.42
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+
+
+Constraints file: system.pcf.
+WARNING:Par:331 - You are using an evaluation version of Xilinx Software. In 26
+   days, this program will not operate. For more information about this product,
+   please refer to the Evaluation Agreement, which was shipped to you along with
+   the Evaluation CDs.
+   To purchase an annual license for this software, please contact your local
+   Field Applications Engineer (FAE) or salesperson. If you have any questions,
+   or if we can assist in any way, please send an email to: eval@xilinx.com
+   Thank You!
+Loading device for application Rf_Device from file '2vp30.nph' in environment
+c:/Xilinx.
+   "system" is an NCD, version 3.1, device xc2vp30, package ff896, speed -7
+
+Initializing temperature to 85.000 Celsius. (default - Range: -40.000 to 100.000
+Celsius)
+Initializing voltage to 1.500 Volts. (default - Range: 1.400 to 1.600 Volts)
+
+Device speed data version:  "PRODUCTION 1.91 2005-07-22".
+
+
+Device Utilization Summary:
+
+   Number of BSCANs                    1 out of 1     100%
+   Number of BUFGMUXs                  5 out of 16     31%
+   Number of DCMs                      2 out of 8      25%
+   Number of External IOBs           139 out of 556    25%
+      Number of LOCed IOBs           139 out of 139   100%
+
+   Number of MULT18X18s                9 out of 136     6%
+   Number of RAMB16s                  40 out of 136    29%
+   Number of SLICEs                 4885 out of 13696  35%
+
+
+Overall effort level (-ol):   High (set by user)
+Placer effort level (-pl):    High (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    High (set by user)
+
+Starting initial Timing Analysis.  REAL time: 39 secs 
+Finished initial Timing Analysis.  REAL time: 40 secs 
+
+Starting Placer
+
+Phase 1.1
+Phase 1.1 (Checksum:b5132f) REAL time: 47 secs 
+
+Phase 2.31
+Phase 2.31 (Checksum:1312cfe) REAL time: 47 secs 
+
+WARNING:Place:414 - The input design contains local clock signal(s). To get the
+   better result, we recommend users run map with the "-timing" option set
+   before starting the placement.
+Phase 3.2
+.
+..
+..
+.
+
+
+Phase 3.2 (Checksum:98de91) REAL time: 1 mins 7 secs 
+
+Phase 4.30
+Phase 4.30 (Checksum:26259fc) REAL time: 1 mins 7 secs 
+
+Phase 5.3
+Phase 5.3 (Checksum:2faf07b) REAL time: 1 mins 7 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 1 mins 7 secs 
+
+Phase 7.8
+.....................................
+.............
+...............................
+........................................
+...........................
+.......................
+.......
+.....
+.......
+.....
+Phase 7.8 (Checksum:1076157) REAL time: 2 mins 20 secs 
+
+Phase 8.5
+Phase 8.5 (Checksum:4c4b3f8) REAL time: 2 mins 21 secs 
+
+Phase 9.18
+Phase 9.18 (Checksum:55d4a77) REAL time: 2 mins 56 secs 
+
+Phase 10.5
+Phase 10.5 (Checksum:5f5e0f6) REAL time: 2 mins 57 secs 
+
+Phase 11.27
+Phase 11.27 (Checksum:68e7775) REAL time: 3 mins 4 secs 
+
+Phase 12.24
+Phase 12.24 (Checksum:7270df4) REAL time: 3 mins 4 secs 
+Writing design to file system.ncd
+
+Total REAL time to Placer completion: 3 mins 17 secs 
+Total CPU time to Placer completion: 2 mins 50 secs 
+
+Starting Router
+Phase 1: 71090 unrouted;       REAL time: 3 mins 31 secs 
+Phase 2: 66147 unrouted;       REAL time: 3 mins 33 secs 
+Phase 3: 18341 unrouted;       REAL time: 3 mins 46 secs 
+Phase 4: 18341 unrouted; (247383)      REAL time: 3 mins 48 secs 
+Phase 5: 18513 unrouted; (4408)      REAL time: 4 mins 35 secs 
+Phase 6: 18531 unrouted; (0)      REAL time: 4 mins 37 secs 
+Phase 7: 0 unrouted; (0)      REAL time: 5 mins 37 secs 
+Phase 8: 0 unrouted; (0)      REAL time: 5 mins 49 secs 
+
+Total REAL time to Router completion: 6 mins 9 secs 
+Total CPU time to Router completion: 5 mins 31 secs 
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+| dlmb_port0_BRAM_Clk |     BUFGMUX5S| No   | 3898 |  0.280     |  1.257      |
++---------------------+--------------+------+------+------------+-------------+
+|           DBG_CLK_s |     BUFGMUX4P| No   |  139 |  0.280     |  1.257      |
++---------------------+--------------+------+------+------------+-------------+
+|        ddr_clk_90_s |     BUFGMUX3P| No   |  275 |  0.151     |  1.257      |
++---------------------+--------------+------+------+------------+-------------+
+|            clk_90_s |     BUFGMUX0P| No   |   38 |  0.145     |  1.257      |
++---------------------+--------------+------+------+------------+-------------+
+|fpga_0_SysACE_Compac |              |      |      |            |             |
+|   tFlash_SysACE_CLK |         Local|      |   65 |  0.205     |  2.395      |
++---------------------+--------------+------+------+------------+-------------+
+|debug_module/bscan_u |              |      |      |            |             |
+|               pdate |         Local|      |    1 |  0.000     |  0.356      |
++---------------------+--------------+------+------+------------+-------------+
+Timing Score: 0
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+--------------------------------------------------------------------------------
+  Constraint                                | Requested  | Actual     | Logic 
+                                            |            |            | Levels
+--------------------------------------------------------------------------------
+  NET "fpga_0_SysACE_CompactFlash_SysACE_CL | 30.000ns   | 4.513ns    | 2    
+  K" PERIOD = 30 ns HIGH 50%                |            |            |      
+--------------------------------------------------------------------------------
+  TSCLK2CLK90_DDR_256MB_32MX64_rank1_row13_ | 2.500ns    | 2.396ns    | 0    
+  col10_cl2_5 = MAXDELAY FROM TIMEGRP       |            |            |      
+     "OPB_Clk_DDR_256MB_32MX64_rank1_row13_ |            |            |      
+  col10_cl2_5" TO TIMEGRP         "Device_C |            |            |      
+  lk90_in_DDR_256MB_32MX64_rank1_row13_col1 |            |            |      
+  0_cl2_5" 2.5 ns                           |            |            |      
+--------------------------------------------------------------------------------
+  TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_ | N/A        | N/A        | N/A  
+  pin" 10 ns HIGH 50%                       |            |            |      
+--------------------------------------------------------------------------------
+  TS_dcm_0_dcm_0_CLK0_BUF = PERIOD TIMEGRP  | 10.000ns   | 9.988ns    | 15   
+  "dcm_0_dcm_0_CLK0_BUF" TS_sys_clk_pin     |            |            |      
+       HIGH 50%                             |            |            |      
+--------------------------------------------------------------------------------
+  TS_dcm_0_dcm_0_CLK90_BUF = PERIOD TIMEGRP | 10.000ns   | 5.954ns    | 0    
+   "dcm_0_dcm_0_CLK90_BUF"         TS_sys_c |            |            |      
+  lk_pin PHASE 2.5 ns HIGH 50%              |            |            |      
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+INFO:Timing:2761 - N/A entries in the Constraints list may indicate that the
+   constraint does not cover any paths or that it has no requested value.
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 6 mins 17 secs 
+Total CPU time to PAR completion: 5 mins 39 secs 
+
+Peak Memory Usage:  405 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 2
+Number of info messages: 0
+Writing design to file system.ncd
+
+
+PAR done!
+
+
+
+#----------------------------------------------#
+# Starting program post_par_trce
+# trce -e 3 -xml system.twx system.ncd system.pcf 
+#----------------------------------------------#
+Release 7.1.02i - Trace H.42
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+Loading device for application Rf_Device from file '2vp30.nph' in environment
+c:/Xilinx.
+   "system" is an NCD, version 3.1, device xc2vp30, package ff896, speed -7
+--------------------------------------------------------------------------------
+Release 7.1.02i Trace H.42
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+trce -e 3 -xml system.twx system.ncd system.pcf
+
+
+Design file:              system.ncd
+Physical constraint file: system.pcf
+Device,speed:             xc2vp30,-7 (PRODUCTION 1.91 2005-07-22)
+Report level:             error report
+--------------------------------------------------------------------------------
+
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths
+   option. All paths that are not constrained will be reported in the
+   unconstrained paths section(s) of the report.
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0
+
+Constraints cover 771710 paths, 0 nets, and 59353 connections
+
+Design statistics:
+   Minimum period:   9.988ns (Maximum frequency: 100.120MHz)
+   Maximum path delay from/to any node:   2.396ns
+
+
+Analysis completed Mon Oct 23 12:07:59 2006
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Number of warnings: 0
+Number of info messages: 1
+Total time: 35 secs 
+
+
+xflow done!
+cd implementation; bitgen -w -f bitgen.ut system
+Release 7.1.02i - Bitgen H.42
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+Loading device for application Rf_Device from file '2vp30.nph' in environment
+c:/Xilinx.
+   "system" is an NCD, version 3.1, device xc2vp30, package ff896, speed -7
+Opened constraints file system.pcf.
+
+Mon Oct 23 12:08:10 2006
+Running DRC.
+WARNING:PhysDesignRules:367 - The signal <lmb_bram0/lmb_bram0/BRAM_Clk_B> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <lmb_bram2/lmb_bram2/BRAM_Clk_B> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <lmb_bram3/lmb_bram3/BRAM_Clk_B> is
+   incomplete. The signal does not drive any load pins in the design.
+DRC detected 0 errors and 3 warnings.
+Creating bit map...
+Saving bit stream in "system.bit".
+Creating bit mask...
+Saving mask bit stream in "system.msk".
+Bitstream generation is complete.
+Done.
+At Local date and time: Mon Oct 23 12:16:44 2006
+Command xbash -q -c "cd /cygdrive/d/mpdma/; /usr/bin/make -f system.make program; exit;" Started...
+*********************************************
+Creating software libraries...
+*********************************************
+libgen -mhs system.mhs -p xc2vp30ff896-7 -lp D:/XilinxXUP/lib/    system.mss
+libgen
+Xilinx EDK 7.1.2 Build EDK_H.12.5.1
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Command Line: libgen -mhs system.mhs -p xc2vp30ff896-7 -lp D:/XilinxXUP/lib/
+system.mss 
+Output Directory (-od)		: D:\mpdma\
+Part (-p)			: virtex2p
+
+Software Specification file	: system.mss
+Sourcing tcl file
+C:/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v4_00_a/data/microblaze_v2_1_0.
+tcl ...
+Sourcing tcl file
+C:/EDK/hw/XilinxProcessorIPLib/pcores/lmb_v10_v1_00_a/data/lmb_v10_v2_1_0.tcl
+...
+Sourcing tcl file
+C:/EDK/hw/XilinxProcessorIPLib/pcores/lmb_bram_if_cntlr_v1_00_b/data/lmb_bram_if
+_cntlr_v2_1_0.tcl ...
+Sourcing tcl file
+C:/EDK/hw/XilinxProcessorIPLib/pcores/opb_sysace_v1_00_c/data/opb_sysace_v2_1_0.
+tcl ...
+Sourcing tcl file
+C:/EDK/hw/XilinxProcessorIPLib/pcores/opb_ddr_v2_00_b/data/opb_ddr_v2_1_0.tcl
+...
+
+Overriding IP level properties ...
+microblaze (microblaze_0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:60 - tool overriding c_family value virtex2 to virtex2p
+microblaze (microblaze_0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:61 - tool overriding c_instance value microblaze to microblaze_0
+microblaze (microblaze_0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:90 - tcl overriding C_ADDR_TAG_BITS value 17 to 0
+microblaze (microblaze_0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:97 - tcl overriding C_DCACHE_ADDR_TAG value 17 to 0
+microblaze (microblaze_2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:60 - tool overriding c_family value virtex2 to virtex2p
+microblaze (microblaze_2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:61 - tool overriding c_instance value microblaze to microblaze_2
+microblaze (microblaze_2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:90 - tcl overriding C_ADDR_TAG_BITS value 17 to 0
+microblaze (microblaze_2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:97 - tcl overriding C_DCACHE_ADDR_TAG value 17 to 0
+microblaze (microblaze_3) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:60 - tool overriding c_family value virtex2 to virtex2p
+microblaze (microblaze_3) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:61 - tool overriding c_instance value microblaze to microblaze_3
+microblaze (microblaze_3) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:90 - tcl overriding C_ADDR_TAG_BITS value 17 to 0
+microblaze (microblaze_3) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:97 - tcl overriding C_DCACHE_ADDR_TAG value 17 to 0
+opb_mdm (debug_module) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\opb_mdm_v2_00_a\data\opb_mdm_v2_1_0.mpd:38
+- tool overriding c_family value virtex2 to virtex2p
+bram_block (lmb_bram0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\data\bram_block_v2_1_0.
+mpd:39 - tool overriding c_family value virtex2 to virtex2p
+bram_block (lmb_bram2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\data\bram_block_v2_1_0.
+mpd:39 - tool overriding c_family value virtex2 to virtex2p
+bram_block (lmb_bram3) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\data\bram_block_v2_1_0.
+mpd:39 - tool overriding c_family value virtex2 to virtex2p
+opb_ddr (ddr_256mb_32mx64_rank1_row13_col10_cl2_5) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\opb_ddr_v2_00_b\data\opb_ddr_v2_1_0.mpd:42
+- tool overriding c_family value virtex2 to virtex2p
+dcm_module (dcm_0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\dcm_module_v1_00_a\data\dcm_module_v2_1_0.
+mpd:56 - tool overriding c_family value virtex2 to virtex2p
+dcm_module (dcm_1) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\dcm_module_v1_00_a\data\dcm_module_v2_1_0.
+mpd:56 - tool overriding c_family value virtex2 to virtex2p
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+Address Map for Processor microblaze_0
+  (0x00000000-0x0000ffff) dlmb_cntlr0	dlmb0
+  (0x00000000-0x0000ffff) ilmb_cntlr0	ilmb0
+  (0x30000000-0x3fffffff) DDR_256MB_32MX64_rank1_row13_col10_cl2_5	mb_opb
+  (0x40600000-0x4060ffff) RS232_Uart_1	mb_opb
+  (0x41400000-0x4140ffff) debug_module	mb_opb
+  (0x41800000-0x4180ffff) SysACE_CompactFlash	mb_opb
+Address Map for Processor microblaze_2
+  (0x00000000-0x00001fff) dlmb_cntlr2	dlmb2
+  (0x00000000-0x00001fff) ilmb_cntlr2	ilmb2
+  (0x30000000-0x3fffffff) DDR_256MB_32MX64_rank1_row13_col10_cl2_5	mb_opb
+  (0x40600000-0x4060ffff) RS232_Uart_1	mb_opb
+  (0x41400000-0x4140ffff) debug_module	mb_opb
+  (0x41800000-0x4180ffff) SysACE_CompactFlash	mb_opb
+Address Map for Processor microblaze_3
+  (0x00000000-0x00001fff) dlmb_cntlr3	dlmb3
+  (0x00000000-0x00001fff) ilmb_cntlr3	ilmb3
+  (0x30000000-0x3fffffff) DDR_256MB_32MX64_rank1_row13_col10_cl2_5	mb_opb
+  (0x40600000-0x4060ffff) RS232_Uart_1	mb_opb
+  (0x41400000-0x4140ffff) debug_module	mb_opb
+  (0x41800000-0x4180ffff) SysACE_CompactFlash	mb_opb
+
+Check platform configuration ...
+opb_v20 (mb_opb) - D:\mpdma\system.mhs:100 - 6 master(s) : 4 slave(s)
+lmb_v10 (ilmb0) - D:\mpdma\system.mhs:126 - 1 master(s) : 1 slave(s)
+lmb_v10 (dlmb0) - D:\mpdma\system.mhs:134 - 1 master(s) : 1 slave(s)
+lmb_v10 (ilmb2) - D:\mpdma\system.mhs:142 - 1 master(s) : 1 slave(s)
+lmb_v10 (dlmb2) - D:\mpdma\system.mhs:150 - 1 master(s) : 1 slave(s)
+lmb_v10 (ilmb3) - D:\mpdma\system.mhs:158 - 1 master(s) : 1 slave(s)
+lmb_v10 (dlmb3) - D:\mpdma\system.mhs:166 - 1 master(s) : 1 slave(s)
+fsl_v20 (fsl0m) - D:\mpdma\system.mhs:174 - 1 master(s) : 1 slave(s)
+fsl_v20 (fsl0s) - D:\mpdma\system.mhs:183 - 1 master(s) : 1 slave(s)
+fsl_v20 (fsl2m) - D:\mpdma\system.mhs:192 - 1 master(s) : 1 slave(s)
+fsl_v20 (fsl2s) - D:\mpdma\system.mhs:201 - 1 master(s) : 1 slave(s)
+fsl_v20 (fsl3m) - D:\mpdma\system.mhs:210 - 1 master(s) : 1 slave(s)
+fsl_v20 (fsl3s) - D:\mpdma\system.mhs:219 - 1 master(s) : 1 slave(s)
+
+Check port drivers...
+
+Check platform address map ...
+
+Overriding system level properties ...
+opb_v20 (mb_opb) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\opb_v20_v1_10_c\data\opb_v20_v2_1_0.mpd:36
+- tool overriding c_num_masters value 4 to 6
+lmb_v10 (ilmb0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v1_00_a\data\lmb_v10_v2_1_0.mpd:36
+- tool overriding c_lmb_num_slaves value 4 to 1
+lmb_v10 (dlmb0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v1_00_a\data\lmb_v10_v2_1_0.mpd:36
+- tool overriding c_lmb_num_slaves value 4 to 1
+lmb_v10 (ilmb2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v1_00_a\data\lmb_v10_v2_1_0.mpd:36
+- tool overriding c_lmb_num_slaves value 4 to 1
+lmb_v10 (dlmb2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v1_00_a\data\lmb_v10_v2_1_0.mpd:36
+- tool overriding c_lmb_num_slaves value 4 to 1
+lmb_v10 (ilmb3) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v1_00_a\data\lmb_v10_v2_1_0.mpd:36
+- tool overriding c_lmb_num_slaves value 4 to 1
+lmb_v10 (dlmb3) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v1_00_a\data\lmb_v10_v2_1_0.mpd:36
+- tool overriding c_lmb_num_slaves value 4 to 1
+lmb_bram_if_cntlr (dlmb_cntlr0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\lmb_bram_if_cntlr_v1_00_b\data\lmb_bram_if
+_cntlr_v2_1_0.mpd:42 - tool overriding c_mask value 0x00800000 to 0x10c00000
+lmb_bram_if_cntlr (ilmb_cntlr0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\lmb_bram_if_cntlr_v1_00_b\data\lmb_bram_if
+_cntlr_v2_1_0.mpd:42 - tool overriding c_mask value 0x00800000 to 0x10c00000
+bram_block (lmb_bram0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\data\bram_block_v2_1_0.
+mpd:35 - tool overriding c_memsize value 2048 to 65536
+lmb_bram_if_cntlr (dlmb_cntlr2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\lmb_bram_if_cntlr_v1_00_b\data\lmb_bram_if
+_cntlr_v2_1_0.mpd:42 - tool overriding c_mask value 0x00800000 to 0x10c00000
+lmb_bram_if_cntlr (ilmb_cntlr2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\lmb_bram_if_cntlr_v1_00_b\data\lmb_bram_if
+_cntlr_v2_1_0.mpd:42 - tool overriding c_mask value 0x00800000 to 0x10c00000
+bram_block (lmb_bram2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\data\bram_block_v2_1_0.
+mpd:35 - tool overriding c_memsize value 2048 to 8192
+lmb_bram_if_cntlr (dlmb_cntlr3) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\lmb_bram_if_cntlr_v1_00_b\data\lmb_bram_if
+_cntlr_v2_1_0.mpd:42 - tool overriding c_mask value 0x00800000 to 0x10c00000
+lmb_bram_if_cntlr (ilmb_cntlr3) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\lmb_bram_if_cntlr_v1_00_b\data\lmb_bram_if
+_cntlr_v2_1_0.mpd:42 - tool overriding c_mask value 0x00800000 to 0x10c00000
+bram_block (lmb_bram3) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\data\bram_block_v2_1_0.
+mpd:35 - tool overriding c_memsize value 2048 to 8192
+
+Running DRC Tcl procedures for OPTION SYSLEVEL_DRC_PROC...
+Sourcing tcl file
+C:/EDK/hw/XilinxProcessorIPLib/pcores/ddr_v2_00_b/data/ddr_v2_1_0.tcl ...
+
+Performing System level DRCs on properties...
+WARNING:MDT - Peripheral sysclk_inv is not connected to any of the processors in
+   the system. Check for the following reasons.
+   1. sysclk_inv is not connected to any of the buses connected to a processor. 
+   2. sysclk_inv does not have adresses set correctly. 
+   3. sysclk_inv's address is not within any of the bridge windows connected to
+   a processor.
+WARNING:MDT - Peripheral clk90_inv is not connected to any of the processors in
+   the system. Check for the following reasons.
+   1. clk90_inv is not connected to any of the buses connected to a processor. 
+   2. clk90_inv does not have adresses set correctly. 
+   3. clk90_inv's address is not within any of the bridge windows connected to a
+   processor.
+WARNING:MDT - Peripheral ddr_clk90_inv is not connected to any of the processors
+   in the system. Check for the following reasons.
+   1. ddr_clk90_inv is not connected to any of the buses connected to a
+   processor. 
+   2. ddr_clk90_inv does not have adresses set correctly. 
+   3. ddr_clk90_inv's address is not within any of the bridge windows connected
+   to a processor.
+WARNING:MDT - Peripheral dcm_0 is not connected to any of the processors in the
+   system. Check for the following reasons.
+   1. dcm_0 is not connected to any of the buses connected to a processor. 
+   2. dcm_0 does not have adresses set correctly. 
+   3. dcm_0's address is not within any of the bridge windows connected to a
+   processor.
+WARNING:MDT - Peripheral dcm_1 is not connected to any of the processors in the
+   system. Check for the following reasons.
+   1. dcm_1 is not connected to any of the buses connected to a processor. 
+   2. dcm_1 does not have adresses set correctly. 
+   3. dcm_1's address is not within any of the bridge windows connected to a
+   processor.
+INFO:MDT - List of peripherals addressable from processor instance microblaze_0
+   : 
+  - dlmb_cntlr0
+  - ilmb_cntlr0
+  - debug_module
+  - RS232_Uart_1
+  - SysACE_CompactFlash
+  - DDR_256MB_32MX64_rank1_row13_col10_cl2_5
+  - fifo02
+INFO:MDT - List of peripherals addressable from processor instance microblaze_2
+   : 
+  - dlmb_cntlr2
+  - ilmb_cntlr2
+  - debug_module
+  - RS232_Uart_1
+  - SysACE_CompactFlash
+  - DDR_256MB_32MX64_rank1_row13_col10_cl2_5
+  - fifo23
+INFO:MDT - List of peripherals addressable from processor instance microblaze_3
+   : 
+  - dlmb_cntlr3
+  - ilmb_cntlr3
+  - debug_module
+  - RS232_Uart_1
+  - SysACE_CompactFlash
+  - DDR_256MB_32MX64_rank1_row13_col10_cl2_5
+  - fifo30
+
+Building Directory Structure for microblaze_0
+
+Generating platform libraries and device drivers ...
+
+Running CopyFiles ...
+
+Copying files for os standalone_v1_00_a from
+C:\EDK\sw\lib\bsp\standalone_v1_00_a\src\ to
+D:\mpdma\microblaze_0\libsrc\standalone_v1_00_a\ ...
+
+Copying files for driver uartlite_v1_00_b from
+C:\EDK\sw\XilinxProcessorIPLib\drivers\uartlite_v1_00_b\src\ to
+D:\mpdma\microblaze_0\libsrc\uartlite_v1_00_b\ ...
+
+Copying files for driver sysace_v1_00_a from
+C:\EDK\sw\XilinxProcessorIPLib\drivers\sysace_v1_00_a\src\ to
+D:\mpdma\microblaze_0\libsrc\sysace_v1_00_a\ ...
+
+Copying files for driver cpu_v1_00_a from
+C:\EDK\sw\XilinxProcessorIPLib\drivers\cpu_v1_00_a\src\ to
+D:\mpdma\microblaze_0\libsrc\cpu_v1_00_a\ ...
+
+Copying files for library xilfatfs_v1_00_a from
+C:\EDK\sw\lib\sw_services\xilfatfs_v1_00_a\src\ to
+D:\mpdma\microblaze_0\libsrc\xilfatfs_v1_00_a\ ...
+
+Running DRCs for OSes, Drivers and Libraries ... 
+
+Running generate for OS'es, Drivers and Libraries ... 
+Copying Library Files ...
+
+Running post_generate for OS'es, Drivers and Libraries ... 
+
+Running make for Drivers and Libraries ... 
+
+Configuring make for target include using:
+
+make -s include "COMPILER=mb-gcc" "ARCHIVER=mb-ar"
+"COMPILER_FLAGS=-mno-xl-soft-mul  -O2 -c" "EXTRA_COMPILER_FLAGS=-g" 
+
+Configuring make for target libs using:
+
+make -s libs "COMPILER=mb-gcc" "ARCHIVER=mb-ar"
+"COMPILER_FLAGS=-mno-xl-soft-mul  -O2 -c" "EXTRA_COMPILER_FLAGS=-g" 
+Compiling commo
+Compiling  microblaze_disable_dcache.
+Compiling  microblaze_disable_exceptions.
+Compiling  microblaze_disable_icache.
+Compiling  microblaze_disable_interrupts.
+Compiling  microblaze_enable_dcache.
+Compiling  microblaze_enable_exceptions.
+Compiling  microblaze_enable_icache.
+Compiling  microblaze_enable_interrupts.
+Compiling  microblaze_init_dcache_range.
+Compiling  microblaze_init_icache_range.
+Compiling  microblaze_update_dcache.
+Compiling  microblaze_update_icache.
+Compiling  inbyte.
+Compiling  microblaze_exception_handler.
+Compiling  microblaze_exceptions_g.
+Compiling  microblaze_interrupt_handler.
+Compiling  microblaze_interrupts_g.
+Compiling  outbyte.
+Compiling  hw_exception_handler.
+Compiling  src/xilfatfs_alloc.
+Compiling  src/xilfatfs_close.
+Compiling  src/xilfatfs_directory.
+Compiling  src/xilfatfs_fat.
+Compiling  src/xilfatfs_fat16.
+Compiling  src/xilfatfs_fat32.
+Compiling  src/xilfatfs_filespec.
+Compiling  src/xilfatfs_filestatus.
+Compiling  src/xilfatfs_open.
+Compiling  src/xilfatfs_part.
+Compiling  src/xilfatfs_read.
+Compiling  src/xilfatfs_wd.
+Compiling  src/xilfatfs_stats.
+Compiling  src/xilfatfs_bufcache.
+Compiling  src/xilfatfs_write.
+Compiling  src/xilfatfs_sysace.
+make clea
+Compiling uartlit
+Compiling sysac
+Compiling cp
+
+Libraries generated in D:\mpdma\microblaze_0\lib\ directory
+
+Running execs_generate for OS'es, Drivers and Libraries ... 
+
+Building Directory Structure for microblaze_2
+
+Generating platform libraries and device drivers ...
+
+Running CopyFiles ...
+
+Copying files for os standalone_v1_00_a from
+C:\EDK\sw\lib\bsp\standalone_v1_00_a\src\ to
+D:\mpdma\microblaze_2\libsrc\standalone_v1_00_a\ ...
+
+Copying files for driver uartlite_v1_00_b from
+C:\EDK\sw\XilinxProcessorIPLib\drivers\uartlite_v1_00_b\src\ to
+D:\mpdma\microblaze_2\libsrc\uartlite_v1_00_b\ ...
+
+Copying files for driver sysace_v1_00_a from
+C:\EDK\sw\XilinxProcessorIPLib\drivers\sysace_v1_00_a\src\ to
+D:\mpdma\microblaze_2\libsrc\sysace_v1_00_a\ ...
+
+Copying files for driver cpu_v1_00_a from
+C:\EDK\sw\XilinxProcessorIPLib\drivers\cpu_v1_00_a\src\ to
+D:\mpdma\microblaze_2\libsrc\cpu_v1_00_a\ ...
+
+Copying files for library xilfatfs_v1_00_a from
+C:\EDK\sw\lib\sw_services\xilfatfs_v1_00_a\src\ to
+D:\mpdma\microblaze_2\libsrc\xilfatfs_v1_00_a\ ...
+
+Running DRCs for OSes, Drivers and Libraries ... 
+
+Running generate for OS'es, Drivers and Libraries ... 
+Copying Library Files ...
+
+Running post_generate for OS'es, Drivers and Libraries ... 
+
+Running make for Drivers and Libraries ... 
+
+Configuring make for target include using:
+
+make -s include "COMPILER=mb-gcc" "ARCHIVER=mb-ar"
+"COMPILER_FLAGS=-mno-xl-soft-mul  -O2 -c" "EXTRA_COMPILER_FLAGS=-g" 
+
+Configuring make for target libs using:
+
+make -s libs "COMPILER=mb-gcc" "ARCHIVER=mb-ar"
+"COMPILER_FLAGS=-mno-xl-soft-mul  -O2 -c" "EXTRA_COMPILER_FLAGS=-g" 
+Compiling commo
+Compiling  microblaze_disable_dcache.
+Compiling  microblaze_disable_exceptions.
+Compiling  microblaze_disable_icache.
+Compiling  microblaze_disable_interrupts.
+Compiling  microblaze_enable_dcache.
+Compiling  microblaze_enable_exceptions.
+Compiling  microblaze_enable_icache.
+Compiling  microblaze_enable_interrupts.
+Compiling  microblaze_init_dcache_range.
+Compiling  microblaze_init_icache_range.
+Compiling  microblaze_update_dcache.
+Compiling  microblaze_update_icache.
+Compiling  microblaze_exception_handler.
+Compiling  microblaze_exceptions_g.
+Compiling  microblaze_interrupt_handler.
+Compiling  microblaze_interrupts_g.
+Compiling  hw_exception_handler.
+Compiling  src/xilfatfs_alloc.
+Compiling  src/xilfatfs_close.
+Compiling  src/xilfatfs_directory.
+Compiling  src/xilfatfs_fat.
+Compiling  src/xilfatfs_fat16.
+Compiling  src/xilfatfs_fat32.
+Compiling  src/xilfatfs_filespec.
+Compiling  src/xilfatfs_filestatus.
+Compiling  src/xilfatfs_open.
+Compiling  src/xilfatfs_part.
+Compiling  src/xilfatfs_read.
+Compiling  src/xilfatfs_wd.
+Compiling  src/xilfatfs_stats.
+Compiling  src/xilfatfs_bufcache.
+Compiling  src/xilfatfs_write.
+Compiling  src/xilfatfs_sysace.
+make clea
+Compiling uartlit
+Compiling sysac
+Compiling cp
+
+Libraries generated in D:\mpdma\microblaze_2\lib\ directory
+
+Running execs_generate for OS'es, Drivers and Libraries ... 
+
+Building Directory Structure for microblaze_3
+
+Generating platform libraries and device drivers ...
+
+Running CopyFiles ...
+
+Copying files for os standalone_v1_00_a from
+C:\EDK\sw\lib\bsp\standalone_v1_00_a\src\ to
+D:\mpdma\microblaze_3\libsrc\standalone_v1_00_a\ ...
+
+Copying files for driver uartlite_v1_00_b from
+C:\EDK\sw\XilinxProcessorIPLib\drivers\uartlite_v1_00_b\src\ to
+D:\mpdma\microblaze_3\libsrc\uartlite_v1_00_b\ ...
+
+Copying files for driver sysace_v1_00_a from
+C:\EDK\sw\XilinxProcessorIPLib\drivers\sysace_v1_00_a\src\ to
+D:\mpdma\microblaze_3\libsrc\sysace_v1_00_a\ ...
+
+Copying files for driver cpu_v1_00_a from
+C:\EDK\sw\XilinxProcessorIPLib\drivers\cpu_v1_00_a\src\ to
+D:\mpdma\microblaze_3\libsrc\cpu_v1_00_a\ ...
+
+Copying files for library xilfatfs_v1_00_a from
+C:\EDK\sw\lib\sw_services\xilfatfs_v1_00_a\src\ to
+D:\mpdma\microblaze_3\libsrc\xilfatfs_v1_00_a\ ...
+
+Running DRCs for OSes, Drivers and Libraries ... 
+
+Running generate for OS'es, Drivers and Libraries ... 
+Copying Library Files ...
+
+Running post_generate for OS'es, Drivers and Libraries ... 
+
+Running make for Drivers and Libraries ... 
+
+Configuring make for target include using:
+
+make -s include "COMPILER=mb-gcc" "ARCHIVER=mb-ar"
+"COMPILER_FLAGS=-mno-xl-soft-mul  -O2 -c" "EXTRA_COMPILER_FLAGS=-g" 
+
+Configuring make for target libs using:
+
+make -s libs "COMPILER=mb-gcc" "ARCHIVER=mb-ar"
+"COMPILER_FLAGS=-mno-xl-soft-mul  -O2 -c" "EXTRA_COMPILER_FLAGS=-g" 
+Compiling commo
+Compiling  microblaze_disable_dcache.
+Compiling  microblaze_disable_exceptions.
+Compiling  microblaze_disable_icache.
+Compiling  microblaze_disable_interrupts.
+Compiling  microblaze_enable_dcache.
+Compiling  microblaze_enable_exceptions.
+Compiling  microblaze_enable_icache.
+Compiling  microblaze_enable_interrupts.
+Compiling  microblaze_init_dcache_range.
+Compiling  microblaze_init_icache_range.
+Compiling  microblaze_update_dcache.
+Compiling  microblaze_update_icache.
+Compiling  microblaze_exception_handler.
+Compiling  microblaze_exceptions_g.
+Compiling  microblaze_interrupt_handler.
+Compiling  microblaze_interrupts_g.
+Compiling  hw_exception_handler.
+Compiling  src/xilfatfs_alloc.
+Compiling  src/xilfatfs_close.
+Compiling  src/xilfatfs_directory.
+Compiling  src/xilfatfs_fat.
+Compiling  src/xilfatfs_fat16.
+Compiling  src/xilfatfs_fat32.
+Compiling  src/xilfatfs_filespec.
+Compiling  src/xilfatfs_filestatus.
+Compiling  src/xilfatfs_open.
+Compiling  src/xilfatfs_part.
+Compiling  src/xilfatfs_read.
+Compiling  src/xilfatfs_wd.
+Compiling  src/xilfatfs_stats.
+Compiling  src/xilfatfs_bufcache.
+Compiling  src/xilfatfs_write.
+Compiling  src/xilfatfs_sysace.
+make clea
+Compiling uartlit
+Compiling sysac
+Compiling cp
+
+Libraries generated in D:\mpdma\microblaze_3\lib\ directory
+
+Running execs_generate for OS'es, Drivers and Libraries ... 
+
+LibGen Done. 
+mb-gcc -O2 mb-bmp2jpg/bmp2jpg_mb.c mb-bmp2jpg/ColorConversion.c mb-bmp2jpg/dct.c mb-bmp2jpg/huffman.c mb-bmp2jpg/zzq.c  -o mb-bmp2jpg/executable.elf \
+   -mno-xl-soft-mul     -Wl,-T -Wl,mb-bmp2jpg_linker_script  -g   -I./microblaze_0/include/  -Imb-bmp2jpg/  -L./microblaze_0/lib/  \
+-xl-mode-executable  \
+-D__MICROBLAZE  
+mb-bmp2jpg/huffman.c: In function `HuffmanEncodeFinishSend':
+mb-bmp2jpg/huffman.c:689: warning: comparison is always true due to limited range of data type
+mb-size mb-bmp2jpg/executable.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24440	   3073	   7896	  35409	   8a51	mb-bmp2jpg/executable.elf
+mb-gcc -O2 mb-dct/mb-dct.c  -o mb-dct/executable.elf \
+   -mno-xl-soft-mul      -g   -I./microblaze_2/include/  -Imb-dct/  -L./microblaze_2/lib/  \
+-xl-mode-executable  \
+-D__MICROBLAZE  
+mb-size mb-dct/executable.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1448	   2060	   1224	   4732	   127c	mb-dct/executable.elf
+mb-gcc -O2 mb-vlc/mb-huffman.c mb-vlc/mb-zzq.c  -o mb-vlc/executable.elf \
+   -mno-xl-soft-mul      -g   -I./microblaze_3/include/  -Imb-vlc/  -L./microblaze_3/lib/  \
+-xl-mode-executable  \
+-D__MICROBLAZE  
+mb-vlc/mb-huffman.c: In function `HuffmanEncodeFinishSend':
+mb-vlc/mb-huffman.c:710: warning: comparison is always true due to limited range of data type
+mb-size mb-vlc/executable.elf 
+   text	   data	    bss	    dec	    hex	filename
+   2592	   1708	   1240	   5540	   15a4	mb-vlc/executable.elf
+Done.
+At Local date and time: Mon Oct 23 12:24:41 2006
+Command xbash -q -c "cd /cygdrive/d/mpdma/; /usr/bin/make -f system.make program; exit;" Started...
+mb-gcc -O2 mb-bmp2jpg/bmp2jpg_mb.c mb-bmp2jpg/ColorConversion.c mb-bmp2jpg/dct.c mb-bmp2jpg/huffman.c mb-bmp2jpg/zzq.c  -o mb-bmp2jpg/executable.elf \
+   -mno-xl-soft-mul     -Wl,-T -Wl,mb-bmp2jpg_linker_script  -g   -I./microblaze_0/include/  -Imb-bmp2jpg/  -L./microblaze_0/lib/  \
+-xl-mode-executable  \
+-D__MICROBLAZE  
+mb-size mb-bmp2jpg/executable.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22608	   1377	   7692	  31677	   7bbd	mb-bmp2jpg/executable.elf
+Done.
+At Local date and time: Mon Oct 23 12:24:52 2006
+Command xbash -q -c "cd /cygdrive/d/mpdma/; /usr/bin/make -f system.make download; exit;" Started...
+*********************************************
+Initializing BRAM contents of the bitstream
+*********************************************
+bitinit system.mhs -lp D:/XilinxXUP/lib/ -pe microblaze_0 mb-bmp2jpg/executable.elf  -pe microblaze_2 mb-dct/executable.elf  -pe microblaze_3 mb-vlc/executable.elf  \
+-bt implementation/system.bit -o implementation/download.bit
+
+bitinit version Xilinx EDK 7.1.2 Build EDK_H.12.5.1
+Copyright (c) Xilinx Inc. 2002.
+
+Parsing MHS File system.mhs...
+Sourcing tcl file
+C:/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v4_00_a/data/microblaze_v2_1_0.
+tcl ...
+Sourcing tcl file
+C:/EDK/hw/XilinxProcessorIPLib/pcores/lmb_v10_v1_00_a/data/lmb_v10_v2_1_0.tcl
+...
+Sourcing tcl file
+C:/EDK/hw/XilinxProcessorIPLib/pcores/lmb_bram_if_cntlr_v1_00_b/data/lmb_bram_if
+_cntlr_v2_1_0.tcl ...
+Sourcing tcl file
+C:/EDK/hw/XilinxProcessorIPLib/pcores/opb_sysace_v1_00_c/data/opb_sysace_v2_1_0.
+tcl ...
+Sourcing tcl file
+C:/EDK/hw/XilinxProcessorIPLib/pcores/opb_ddr_v2_00_b/data/opb_ddr_v2_1_0.tcl
+...
+
+Overriding IP level properties ...
+microblaze (microblaze_0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:60 - tool overriding c_family value virtex2 to 
+microblaze (microblaze_0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:61 - tool overriding c_instance value microblaze to microblaze_0
+microblaze (microblaze_0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:90 - tcl overriding C_ADDR_TAG_BITS value 17 to 0
+microblaze (microblaze_0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:97 - tcl overriding C_DCACHE_ADDR_TAG value 17 to 0
+microblaze (microblaze_2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:60 - tool overriding c_family value virtex2 to 
+microblaze (microblaze_2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:61 - tool overriding c_instance value microblaze to microblaze_2
+microblaze (microblaze_2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:90 - tcl overriding C_ADDR_TAG_BITS value 17 to 0
+microblaze (microblaze_2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:97 - tcl overriding C_DCACHE_ADDR_TAG value 17 to 0
+microblaze (microblaze_3) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:60 - tool overriding c_family value virtex2 to 
+microblaze (microblaze_3) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:61 - tool overriding c_instance value microblaze to microblaze_3
+microblaze (microblaze_3) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:90 - tcl overriding C_ADDR_TAG_BITS value 17 to 0
+microblaze (microblaze_3) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:97 - tcl overriding C_DCACHE_ADDR_TAG value 17 to 0
+opb_mdm (debug_module) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\opb_mdm_v2_00_a\data\opb_mdm_v2_1_0.mpd:38
+- tool overriding c_family value virtex2 to 
+bram_block (lmb_bram0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\data\bram_block_v2_1_0.
+mpd:39 - tool overriding c_family value virtex2 to 
+bram_block (lmb_bram2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\data\bram_block_v2_1_0.
+mpd:39 - tool overriding c_family value virtex2 to 
+bram_block (lmb_bram3) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\data\bram_block_v2_1_0.
+mpd:39 - tool overriding c_family value virtex2 to 
+opb_ddr (ddr_256mb_32mx64_rank1_row13_col10_cl2_5) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\opb_ddr_v2_00_b\data\opb_ddr_v2_1_0.mpd:42
+- tool overriding c_family value virtex2 to 
+dcm_module (dcm_0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\dcm_module_v1_00_a\data\dcm_module_v2_1_0.
+mpd:56 - tool overriding c_family value virtex2 to 
+dcm_module (dcm_1) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\dcm_module_v1_00_a\data\dcm_module_v2_1_0.
+mpd:56 - tool overriding c_family value virtex2 to 
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+Address Map for Processor microblaze_0
+  (0x00000000-0x0000ffff) dlmb_cntlr0	dlmb0
+  (0x00000000-0x0000ffff) ilmb_cntlr0	ilmb0
+  (0x30000000-0x3fffffff) DDR_256MB_32MX64_rank1_row13_col10_cl2_5	mb_opb
+  (0x40600000-0x4060ffff) RS232_Uart_1	mb_opb
+  (0x41400000-0x4140ffff) debug_module	mb_opb
+  (0x41800000-0x4180ffff) SysACE_CompactFlash	mb_opb
+Address Map for Processor microblaze_2
+  (0x00000000-0x00001fff) dlmb_cntlr2	dlmb2
+  (0x00000000-0x00001fff) ilmb_cntlr2	ilmb2
+  (0x30000000-0x3fffffff) DDR_256MB_32MX64_rank1_row13_col10_cl2_5	mb_opb
+  (0x40600000-0x4060ffff) RS232_Uart_1	mb_opb
+  (0x41400000-0x4140ffff) debug_module	mb_opb
+  (0x41800000-0x4180ffff) SysACE_CompactFlash	mb_opb
+Address Map for Processor microblaze_3
+  (0x00000000-0x00001fff) dlmb_cntlr3	dlmb3
+  (0x00000000-0x00001fff) ilmb_cntlr3	ilmb3
+  (0x30000000-0x3fffffff) DDR_256MB_32MX64_rank1_row13_col10_cl2_5	mb_opb
+  (0x40600000-0x4060ffff) RS232_Uart_1	mb_opb
+  (0x41400000-0x4140ffff) debug_module	mb_opb
+  (0x41800000-0x4180ffff) SysACE_CompactFlash	mb_opb
+
+Initializing Memory...
+Checking ELFs associated with MICROBLAZE instance microblaze_0 for overlap...
+
+
+Analyzing file mb-bmp2jpg/executable.elf...
+Checking ELFs associated with MICROBLAZE instance microblaze_2 for overlap...
+
+
+Analyzing file mb-dct/executable.elf...
+Checking ELFs associated with MICROBLAZE instance microblaze_3 for overlap...
+
+
+Analyzing file mb-vlc/executable.elf...
+INFO:MDT - BRAM lmb_bram0 will be initialized with ELF of processor microblaze_0
+INFO:MDT - BRAM lmb_bram2 will be initialized with ELF of processor microblaze_2
+INFO:MDT - BRAM lmb_bram3 will be initialized with ELF of processor microblaze_3
+Running Data2Mem with the following command:
+data2mem -bm implementation/system_bd -bt implementation/system.bit  -bd
+mb-bmp2jpg/executable.elf tag lmb_bram0  -bd mb-dct/executable.elf tag lmb_bram2
+ -bd mb-vlc/executable.elf tag lmb_bram3  -o b implementation/download.bit 
+Memory Initialization completed successfully.
+
+*********************************************
+Downloading Bitstream onto the target board
+*********************************************
+impact -batch etc/download.cmd
+Release 7.1.02i - iMPACT H.42
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+No resources.
+Connecting to cable (USB Port).
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 7.0.0.0. LPT base address = 0378h.
+ ECP base address = 0778h.
+ ECP hardware is detected.
+Cable connection established.
+Connecting to cable (Parallel Port - LPT1) in ECP mode.
+Checking cable driver.
+ Driver xpc4drvr.sys version = 1.0.4.0. LPT base address = 0378h.
+ Cable Type = 1, Revision = 3.
+ Setting cable speed to 5 MHz.
+Cable connection established.
+// *** BATCH CMD : identify
+Identifying chain contents ....Version is 0001
+'1': : Manufacturer's ID =Xilinx xc2vp30, Version : 1
+INFO:iMPACT:1777 - 
+   Reading c:/Xilinx/virtex2p/data/xc2vp30.bsd...
+INFO:iMPACT:501 - '1': Added Device xc2vp30 successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Version is 0000
+'2': : Manufacturer's ID =Xilinx xccace, Version : 0
+INFO:iMPACT:1777 - 
+   Reading c:/Xilinx/acecf/data/xccace.bsd...
+INFO:iMPACT:501 - '1': Added Device xccace successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Version is 1111
+'3': : Manufacturer's ID =Xilinx xcf32p, Version : 15
+INFO:iMPACT:1777 - 
+   Reading c:/Xilinx/xcfp/data/xcf32p.bsd...
+INFO:iMPACT:501 - '1': Added Device xcf32p successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+done.
+Validating chain...
+Boundary-scan chain validated successfully.
+Elapsed time =      0 sec.
+// *** BATCH CMD : identifyMPM
+Elapsed time =      0 sec.
+// *** BATCH CMD : setAttribute -position 3 -attr configFileName -value
+"implementation/download.bit"
+'3': Loading file 'implementation/download.bit' ...
+done.
+INFO:iMPACT:501 - '3': Added Device xc2vp30 successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+// *** BATCH CMD : program -p 3 
+Validating chain...
+Boundary-scan chain validated successfully.
+'3':Programming  device...
+done.
+'3': Reading status register contents...
+CRC error                                         :         0
+Decryptor security set                            :         0
+DCM locked                                        :         1
+DCI matched                                       :         1
+legacy input error                                :         0
+status of GTS_CFG_B                               :         1
+status of GWE                                     :         1
+status of GHIGH                                   :         1
+value of MODE pin M0                              :         1
+value of MODE pin M1                              :         0
+value of MODE pin M2                              :         1
+value of CFG_RDY (INIT_B)                         :         1
+DONEIN input from DONE pin                        :         1
+IDCODE not validated while trying to write FDRI   :         0
+write FDRI issued before or after decrypt operation:         0
+Decryptor keys not used in proper sequence        :         0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 0111 1011 1000 0000 0000 0000 0000 
+INFO:iMPACT:579 - '3': Completed downloading bit file to device.
+INFO:iMPACT:580 - '3':Checking done pin ....done.
+'3': Programmed successfully.
+Elapsed time =      3 sec.
+// *** BATCH CMD : quit
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Done.
+At Local date and time: Mon Oct 23 12:25:33 2006
+Command xbash -q -c "cd /cygdrive/d/mpdma/; /usr/bin/make -f system.make download; exit;" Started...
+
+*********************************************
+Downloading Bitstream onto the target board
+*********************************************
+impact -batch etc/download.cmd
+Release 7.1.02i - iMPACT H.42
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+No resources.
+Connecting to cable (USB Port).
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 7.0.0.0. LPT base address = 0378h.
+ ECP base address = 0778h.
+ ECP hardware is detected.
+Cable connection established.
+Connecting to cable (Parallel Port - LPT1) in ECP mode.
+Checking cable driver.
+ Driver xpc4drvr.sys version = 1.0.4.0. LPT base address = 0378h.
+ Cable Type = 1, Revision = 3.
+ Setting cable speed to 5 MHz.
+Cable connection established.
+// *** BATCH CMD : identify
+Identifying chain contents ....Version is 0001
+'1': : Manufacturer's ID =Xilinx xc2vp30, Version : 1
+INFO:iMPACT:1777 - 
+   Reading c:/Xilinx/virtex2p/data/xc2vp30.bsd...
+INFO:iMPACT:501 - '1': Added Device xc2vp30 successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Version is 0000
+'2': : Manufacturer's ID =Xilinx xccace, Version : 0
+INFO:iMPACT:1777 - 
+   Reading c:/Xilinx/acecf/data/xccace.bsd...
+INFO:iMPACT:501 - '1': Added Device xccace successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Version is 1111
+'3': : Manufacturer's ID =Xilinx xcf32p, Version : 15
+INFO:iMPACT:1777 - 
+   Reading c:/Xilinx/xcfp/data/xcf32p.bsd...
+INFO:iMPACT:501 - '1': Added Device xcf32p successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+done.
+Validating chain...
+Boundary-scan chain validated successfully.
+Elapsed time =      0 sec.
+// *** BATCH CMD : identifyMPM
+Elapsed time =      0 sec.
+// *** BATCH CMD : setAttribute -position 3 -attr configFileName -value
+"implementation/download.bit"
+'3': Loading file 'implementation/download.bit' ...
+done.
+INFO:iMPACT:501 - '3': Added Device xc2vp30 successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+// *** BATCH CMD : program -p 3 
+Validating chain...
+Boundary-scan chain validated successfully.
+'3':Programming  device...
+done.
+'3': Reading status register contents...
+CRC error                                         :         0
+Decryptor security set                            :         0
+DCM locked                                        :         1
+DCI matched                                       :         1
+legacy input error                                :         0
+status of GTS_CFG_B                               :         1
+status of GWE                                     :         1
+status of GHIGH                                   :         1
+value of MODE pin M0                              :         1
+value of MODE pin M1                              :         0
+value of MODE pin M2                              :         1
+value of CFG_RDY (INIT_B)                         :         1
+DONEIN input from DONE pin                        :         1
+IDCODE not validated while trying to write FDRI   :         0
+write FDRI issued before or after decrypt operation:         0
+Decryptor keys not used in proper sequence        :         0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 0111 1011 1000 0000 0000 0000 0000 
+INFO:iMPACT:579 - '3': Completed downloading bit file to device.
+INFO:iMPACT:580 - '3':Checking done pin ....done.
+'3': Programmed successfully.
+Elapsed time =      3 sec.
+// *** BATCH CMD : quit
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Done.
+At Local date and time: Mon Oct 23 12:27:17 2006
+Command xbash -q -c "cd /cygdrive/d/mpdma/; /usr/bin/make -f system.make program; exit;" Started...
+mb-gcc -O2 mb-dct/mb-dct.c  -o mb-dct/executable.elf \
+   -mno-xl-soft-mul      -g   -I./microblaze_2/include/  -Imb-dct/  -L./microblaze_2/lib/  \
+-xl-mode-executable  \
+-D__MICROBLAZE  
+mb-size mb-dct/executable.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1488	   2060	   1224	   4772	   12a4	mb-dct/executable.elf
+Done.
+At Local date and time: Mon Oct 23 12:27:23 2006
+Command xbash -q -c "cd /cygdrive/d/mpdma/; /usr/bin/make -f system.make init_bram; exit;" Started...
+*********************************************
+Initializing BRAM contents of the bitstream
+*********************************************
+bitinit system.mhs -lp D:/XilinxXUP/lib/ -pe microblaze_0 mb-bmp2jpg/executable.elf  -pe microblaze_2 mb-dct/executable.elf  -pe microblaze_3 mb-vlc/executable.elf  \
+-bt implementation/system.bit -o implementation/download.bit
+
+bitinit version Xilinx EDK 7.1.2 Build EDK_H.12.5.1
+Copyright (c) Xilinx Inc. 2002.
+
+Parsing MHS File system.mhs...
+Sourcing tcl file
+C:/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v4_00_a/data/microblaze_v2_1_0.
+tcl ...
+Sourcing tcl file
+C:/EDK/hw/XilinxProcessorIPLib/pcores/lmb_v10_v1_00_a/data/lmb_v10_v2_1_0.tcl
+...
+Sourcing tcl file
+C:/EDK/hw/XilinxProcessorIPLib/pcores/lmb_bram_if_cntlr_v1_00_b/data/lmb_bram_if
+_cntlr_v2_1_0.tcl ...
+Sourcing tcl file
+C:/EDK/hw/XilinxProcessorIPLib/pcores/opb_sysace_v1_00_c/data/opb_sysace_v2_1_0.
+tcl ...
+Sourcing tcl file
+C:/EDK/hw/XilinxProcessorIPLib/pcores/opb_ddr_v2_00_b/data/opb_ddr_v2_1_0.tcl
+...
+
+Overriding IP level properties ...
+microblaze (microblaze_0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:60 - tool overriding c_family value virtex2 to 
+microblaze (microblaze_0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:61 - tool overriding c_instance value microblaze to microblaze_0
+microblaze (microblaze_0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:90 - tcl overriding C_ADDR_TAG_BITS value 17 to 0
+microblaze (microblaze_0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:97 - tcl overriding C_DCACHE_ADDR_TAG value 17 to 0
+microblaze (microblaze_2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:60 - tool overriding c_family value virtex2 to 
+microblaze (microblaze_2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:61 - tool overriding c_instance value microblaze to microblaze_2
+microblaze (microblaze_2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:90 - tcl overriding C_ADDR_TAG_BITS value 17 to 0
+microblaze (microblaze_2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:97 - tcl overriding C_DCACHE_ADDR_TAG value 17 to 0
+microblaze (microblaze_3) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:60 - tool overriding c_family value virtex2 to 
+microblaze (microblaze_3) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:61 - tool overriding c_instance value microblaze to microblaze_3
+microblaze (microblaze_3) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:90 - tcl overriding C_ADDR_TAG_BITS value 17 to 0
+microblaze (microblaze_3) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:97 - tcl overriding C_DCACHE_ADDR_TAG value 17 to 0
+opb_mdm (debug_module) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\opb_mdm_v2_00_a\data\opb_mdm_v2_1_0.mpd:38
+- tool overriding c_family value virtex2 to 
+bram_block (lmb_bram0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\data\bram_block_v2_1_0.
+mpd:39 - tool overriding c_family value virtex2 to 
+bram_block (lmb_bram2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\data\bram_block_v2_1_0.
+mpd:39 - tool overriding c_family value virtex2 to 
+bram_block (lmb_bram3) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\data\bram_block_v2_1_0.
+mpd:39 - tool overriding c_family value virtex2 to 
+opb_ddr (ddr_256mb_32mx64_rank1_row13_col10_cl2_5) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\opb_ddr_v2_00_b\data\opb_ddr_v2_1_0.mpd:42
+- tool overriding c_family value virtex2 to 
+dcm_module (dcm_0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\dcm_module_v1_00_a\data\dcm_module_v2_1_0.
+mpd:56 - tool overriding c_family value virtex2 to 
+dcm_module (dcm_1) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\dcm_module_v1_00_a\data\dcm_module_v2_1_0.
+mpd:56 - tool overriding c_family value virtex2 to 
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+Address Map for Processor microblaze_0
+  (0x00000000-0x0000ffff) dlmb_cntlr0	dlmb0
+  (0x00000000-0x0000ffff) ilmb_cntlr0	ilmb0
+  (0x30000000-0x3fffffff) DDR_256MB_32MX64_rank1_row13_col10_cl2_5	mb_opb
+  (0x40600000-0x4060ffff) RS232_Uart_1	mb_opb
+  (0x41400000-0x4140ffff) debug_module	mb_opb
+  (0x41800000-0x4180ffff) SysACE_CompactFlash	mb_opb
+Address Map for Processor microblaze_2
+  (0x00000000-0x00001fff) dlmb_cntlr2	dlmb2
+  (0x00000000-0x00001fff) ilmb_cntlr2	ilmb2
+  (0x30000000-0x3fffffff) DDR_256MB_32MX64_rank1_row13_col10_cl2_5	mb_opb
+  (0x40600000-0x4060ffff) RS232_Uart_1	mb_opb
+  (0x41400000-0x4140ffff) debug_module	mb_opb
+  (0x41800000-0x4180ffff) SysACE_CompactFlash	mb_opb
+Address Map for Processor microblaze_3
+  (0x00000000-0x00001fff) dlmb_cntlr3	dlmb3
+  (0x00000000-0x00001fff) ilmb_cntlr3	ilmb3
+  (0x30000000-0x3fffffff) DDR_256MB_32MX64_rank1_row13_col10_cl2_5	mb_opb
+  (0x40600000-0x4060ffff) RS232_Uart_1	mb_opb
+  (0x41400000-0x4140ffff) debug_module	mb_opb
+  (0x41800000-0x4180ffff) SysACE_CompactFlash	mb_opb
+
+Initializing Memory...
+Checking ELFs associated with MICROBLAZE instance microblaze_0 for overlap...
+
+
+Analyzing file mb-bmp2jpg/executable.elf...
+Checking ELFs associated with MICROBLAZE instance microblaze_2 for overlap...
+
+
+Analyzing file mb-dct/executable.elf...
+Checking ELFs associated with MICROBLAZE instance microblaze_3 for overlap...
+
+
+Analyzing file mb-vlc/executable.elf...
+INFO:MDT - BRAM lmb_bram0 will be initialized with ELF of processor microblaze_0
+INFO:MDT - BRAM lmb_bram2 will be initialized with ELF of processor microblaze_2
+INFO:MDT - BRAM lmb_bram3 will be initialized with ELF of processor microblaze_3
+Running Data2Mem with the following command:
+data2mem -bm implementation/system_bd -bt implementation/system.bit  -bd
+mb-bmp2jpg/executable.elf tag lmb_bram0  -bd mb-dct/executable.elf tag lmb_bram2
+ -bd mb-vlc/executable.elf tag lmb_bram3  -o b implementation/download.bit 
+Memory Initialization completed successfully.
+Done.
+At Local date and time: Mon Oct 23 12:27:33 2006
+Command xbash -q -c "cd /cygdrive/d/mpdma/; /usr/bin/make -f system.make download; exit;" Started...
+
+*********************************************
+Downloading Bitstream onto the target board
+*********************************************
+impact -batch etc/download.cmd
+Release 7.1.02i - iMPACT H.42
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+No resources.
+Connecting to cable (USB Port).
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 7.0.0.0. LPT base address = 0378h.
+ ECP base address = 0778h.
+ ECP hardware is detected.
+Cable connection established.
+Connecting to cable (Parallel Port - LPT1) in ECP mode.
+Checking cable driver.
+ Driver xpc4drvr.sys version = 1.0.4.0. LPT base address = 0378h.
+ Cable Type = 1, Revision = 3.
+ Setting cable speed to 5 MHz.
+Cable connection established.
+// *** BATCH CMD : identify
+Identifying chain contents ....Version is 0001
+'1': : Manufacturer's ID =Xilinx xc2vp30, Version : 1
+INFO:iMPACT:1777 - 
+   Reading c:/Xilinx/virtex2p/data/xc2vp30.bsd...
+INFO:iMPACT:501 - '1': Added Device xc2vp30 successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Version is 0000
+'2': : Manufacturer's ID =Xilinx xccace, Version : 0
+INFO:iMPACT:1777 - 
+   Reading c:/Xilinx/acecf/data/xccace.bsd...
+INFO:iMPACT:501 - '1': Added Device xccace successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Version is 1111
+'3': : Manufacturer's ID =Xilinx xcf32p, Version : 15
+INFO:iMPACT:1777 - 
+   Reading c:/Xilinx/xcfp/data/xcf32p.bsd...
+INFO:iMPACT:501 - '1': Added Device xcf32p successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+done.
+Validating chain...
+Boundary-scan chain validated successfully.
+Elapsed time =      1 sec.
+// *** BATCH CMD : identifyMPM
+Elapsed time =      0 sec.
+// *** BATCH CMD : setAttribute -position 3 -attr configFileName -value
+"implementation/download.bit"
+'3': Loading file 'implementation/download.bit' ...
+done.
+INFO:iMPACT:501 - '3': Added Device xc2vp30 successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+// *** BATCH CMD : program -p 3 
+Validating chain...
+Boundary-scan chain validated successfully.
+'3':Programming  device...
+done.
+'3': Reading status register contents...
+CRC error                                         :         0
+Decryptor security set                            :         0
+DCM locked                                        :         1
+DCI matched                                       :         1
+legacy input error                                :         0
+status of GTS_CFG_B                               :         1
+status of GWE                                     :         1
+status of GHIGH                                   :         1
+value of MODE pin M0                              :         1
+value of MODE pin M1                              :         0
+value of MODE pin M2                              :         1
+value of CFG_RDY (INIT_B)                         :         1
+DONEIN input from DONE pin                        :         1
+IDCODE not validated while trying to write FDRI   :         0
+write FDRI issued before or after decrypt operation:         0
+Decryptor keys not used in proper sequence        :         0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 0111 1011 1000 0000 0000 0000 0000 
+INFO:iMPACT:579 - '3': Completed downloading bit file to device.
+INFO:iMPACT:580 - '3':Checking done pin ....done.
+'3': Programmed successfully.
+Elapsed time =      3 sec.
+// *** BATCH CMD : quit
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Done.
+At Local date and time: Mon Oct 23 12:28:35 2006
+Command xbash -q -c "cd /cygdrive/d/mpdma/; /usr/bin/make -f system.make program; exit;" Started...
+mb-gcc -O2 mb-bmp2jpg/bmp2jpg_mb.c mb-bmp2jpg/ColorConversion.c mb-bmp2jpg/dct.c mb-bmp2jpg/huffman.c mb-bmp2jpg/zzq.c  -o mb-bmp2jpg/executable.elf \
+   -mno-xl-soft-mul     -Wl,-T -Wl,mb-bmp2jpg_linker_script  -g   -I./microblaze_0/include/  -Imb-bmp2jpg/  -L./microblaze_0/lib/  \
+-xl-mode-executable  \
+-D__MICROBLAZE  
+mb-size mb-bmp2jpg/executable.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22608	   1377	   7692	  31677	   7bbd	mb-bmp2jpg/executable.elf
+Done.
+At Local date and time: Mon Oct 23 12:29:00 2006
+Command xbash -q -c "cd /cygdrive/d/mpdma/; /usr/bin/make -f system.make program; exit;" Started...
+make: Nothing to be done for `program'.
+Done.
+At Local date and time: Mon Oct 23 12:29:04 2006
+Command xbash -q -c "cd /cygdrive/d/mpdma/; /usr/bin/make -f system.make download; exit;" Started...
+*********************************************
+Initializing BRAM contents of the bitstream
+*********************************************
+bitinit system.mhs -lp D:/XilinxXUP/lib/ -pe microblaze_0 mb-bmp2jpg/executable.elf  -pe microblaze_2 mb-dct/executable.elf  -pe microblaze_3 mb-vlc/executable.elf  \
+-bt implementation/system.bit -o implementation/download.bit
+
+bitinit version Xilinx EDK 7.1.2 Build EDK_H.12.5.1
+Copyright (c) Xilinx Inc. 2002.
+
+Parsing MHS File system.mhs...
+Sourcing tcl file
+C:/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v4_00_a/data/microblaze_v2_1_0.
+tcl ...
+Sourcing tcl file
+C:/EDK/hw/XilinxProcessorIPLib/pcores/lmb_v10_v1_00_a/data/lmb_v10_v2_1_0.tcl
+...
+Sourcing tcl file
+C:/EDK/hw/XilinxProcessorIPLib/pcores/lmb_bram_if_cntlr_v1_00_b/data/lmb_bram_if
+_cntlr_v2_1_0.tcl ...
+Sourcing tcl file
+C:/EDK/hw/XilinxProcessorIPLib/pcores/opb_sysace_v1_00_c/data/opb_sysace_v2_1_0.
+tcl ...
+Sourcing tcl file
+C:/EDK/hw/XilinxProcessorIPLib/pcores/opb_ddr_v2_00_b/data/opb_ddr_v2_1_0.tcl
+...
+
+Overriding IP level properties ...
+microblaze (microblaze_0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:60 - tool overriding c_family value virtex2 to 
+microblaze (microblaze_0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:61 - tool overriding c_instance value microblaze to microblaze_0
+microblaze (microblaze_0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:90 - tcl overriding C_ADDR_TAG_BITS value 17 to 0
+microblaze (microblaze_0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:97 - tcl overriding C_DCACHE_ADDR_TAG value 17 to 0
+microblaze (microblaze_2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:60 - tool overriding c_family value virtex2 to 
+microblaze (microblaze_2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:61 - tool overriding c_instance value microblaze to microblaze_2
+microblaze (microblaze_2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:90 - tcl overriding C_ADDR_TAG_BITS value 17 to 0
+microblaze (microblaze_2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:97 - tcl overriding C_DCACHE_ADDR_TAG value 17 to 0
+microblaze (microblaze_3) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:60 - tool overriding c_family value virtex2 to 
+microblaze (microblaze_3) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:61 - tool overriding c_instance value microblaze to microblaze_3
+microblaze (microblaze_3) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:90 - tcl overriding C_ADDR_TAG_BITS value 17 to 0
+microblaze (microblaze_3) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v4_00_a\data\microblaze_v2_1_0.
+mpd:97 - tcl overriding C_DCACHE_ADDR_TAG value 17 to 0
+opb_mdm (debug_module) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\opb_mdm_v2_00_a\data\opb_mdm_v2_1_0.mpd:38
+- tool overriding c_family value virtex2 to 
+bram_block (lmb_bram0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\data\bram_block_v2_1_0.
+mpd:39 - tool overriding c_family value virtex2 to 
+bram_block (lmb_bram2) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\data\bram_block_v2_1_0.
+mpd:39 - tool overriding c_family value virtex2 to 
+bram_block (lmb_bram3) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\data\bram_block_v2_1_0.
+mpd:39 - tool overriding c_family value virtex2 to 
+opb_ddr (ddr_256mb_32mx64_rank1_row13_col10_cl2_5) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\opb_ddr_v2_00_b\data\opb_ddr_v2_1_0.mpd:42
+- tool overriding c_family value virtex2 to 
+dcm_module (dcm_0) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\dcm_module_v1_00_a\data\dcm_module_v2_1_0.
+mpd:56 - tool overriding c_family value virtex2 to 
+dcm_module (dcm_1) -
+C:\EDK\hw\XilinxProcessorIPLib\pcores\dcm_module_v1_00_a\data\dcm_module_v2_1_0.
+mpd:56 - tool overriding c_family value virtex2 to 
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+Address Map for Processor microblaze_0
+  (0x00000000-0x0000ffff) dlmb_cntlr0	dlmb0
+  (0x00000000-0x0000ffff) ilmb_cntlr0	ilmb0
+  (0x30000000-0x3fffffff) DDR_256MB_32MX64_rank1_row13_col10_cl2_5	mb_opb
+  (0x40600000-0x4060ffff) RS232_Uart_1	mb_opb
+  (0x41400000-0x4140ffff) debug_module	mb_opb
+  (0x41800000-0x4180ffff) SysACE_CompactFlash	mb_opb
+Address Map for Processor microblaze_2
+  (0x00000000-0x00001fff) dlmb_cntlr2	dlmb2
+  (0x00000000-0x00001fff) ilmb_cntlr2	ilmb2
+  (0x30000000-0x3fffffff) DDR_256MB_32MX64_rank1_row13_col10_cl2_5	mb_opb
+  (0x40600000-0x4060ffff) RS232_Uart_1	mb_opb
+  (0x41400000-0x4140ffff) debug_module	mb_opb
+  (0x41800000-0x4180ffff) SysACE_CompactFlash	mb_opb
+Address Map for Processor microblaze_3
+  (0x00000000-0x00001fff) dlmb_cntlr3	dlmb3
+  (0x00000000-0x00001fff) ilmb_cntlr3	ilmb3
+  (0x30000000-0x3fffffff) DDR_256MB_32MX64_rank1_row13_col10_cl2_5	mb_opb
+  (0x40600000-0x4060ffff) RS232_Uart_1	mb_opb
+  (0x41400000-0x4140ffff) debug_module	mb_opb
+  (0x41800000-0x4180ffff) SysACE_CompactFlash	mb_opb
+
+Initializing Memory...
+Checking ELFs associated with MICROBLAZE instance microblaze_0 for overlap...
+
+
+Analyzing file mb-bmp2jpg/executable.elf...
+Checking ELFs associated with MICROBLAZE instance microblaze_2 for overlap...
+
+
+Analyzing file mb-dct/executable.elf...
+Checking ELFs associated with MICROBLAZE instance microblaze_3 for overlap...
+
+
+Analyzing file mb-vlc/executable.elf...
+INFO:MDT - BRAM lmb_bram0 will be initialized with ELF of processor microblaze_0
+INFO:MDT - BRAM lmb_bram2 will be initialized with ELF of processor microblaze_2
+INFO:MDT - BRAM lmb_bram3 will be initialized with ELF of processor microblaze_3
+Running Data2Mem with the following command:
+data2mem -bm implementation/system_bd -bt implementation/system.bit  -bd
+mb-bmp2jpg/executable.elf tag lmb_bram0  -bd mb-dct/executable.elf tag lmb_bram2
+ -bd mb-vlc/executable.elf tag lmb_bram3  -o b implementation/download.bit 
+Memory Initialization completed successfully.
+
+*********************************************
+Downloading Bitstream onto the target board
+*********************************************
+impact -batch etc/download.cmd
+Release 7.1.02i - iMPACT H.42
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+No resources.
+Connecting to cable (USB Port).
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 7.0.0.0. LPT base address = 0378h.
+ ECP base address = 0778h.
+ ECP hardware is detected.
+Cable connection established.
+Connecting to cable (Parallel Port - LPT1) in ECP mode.
+Checking cable driver.
+ Driver xpc4drvr.sys version = 1.0.4.0. LPT base address = 0378h.
+ Cable Type = 1, Revision = 3.
+ Setting cable speed to 5 MHz.
+Cable connection established.
+// *** BATCH CMD : identify
+Identifying chain contents ....Version is 0001
+'1': : Manufacturer's ID =Xilinx xc2vp30, Version : 1
+INFO:iMPACT:1777 - 
+   Reading c:/Xilinx/virtex2p/data/xc2vp30.bsd...
+INFO:iMPACT:501 - '1': Added Device xc2vp30 successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Version is 0000
+'2': : Manufacturer's ID =Xilinx xccace, Version : 0
+INFO:iMPACT:1777 - 
+   Reading c:/Xilinx/acecf/data/xccace.bsd...
+INFO:iMPACT:501 - '1': Added Device xccace successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Version is 1111
+'3': : Manufacturer's ID =Xilinx xcf32p, Version : 15
+INFO:iMPACT:1777 - 
+   Reading c:/Xilinx/xcfp/data/xcf32p.bsd...
+INFO:iMPACT:501 - '1': Added Device xcf32p successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+done.
+Validating chain...
+Boundary-scan chain validated successfully.
+Elapsed time =      0 sec.
+// *** BATCH CMD : identifyMPM
+Elapsed time =      0 sec.
+// *** BATCH CMD : setAttribute -position 3 -attr configFileName -value
+"implementation/download.bit"
+'3': Loading file 'implementation/download.bit' ...
+done.
+INFO:iMPACT:501 - '3': Added Device xc2vp30 successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+// *** BATCH CMD : program -p 3 
+Validating chain...
+Boundary-scan chain validated successfully.
+'3':Programming  device...
+done.
+'3': Reading status register contents...
+CRC error                                         :         0
+Decryptor security set                            :         0
+DCM locked                                        :         1
+DCI matched                                       :         1
+legacy input error                                :         0
+status of GTS_CFG_B                               :         1
+status of GWE                                     :         1
+status of GHIGH                                   :         1
+value of MODE pin M0                              :         1
+value of MODE pin M1                              :         0
+value of MODE pin M2                              :         1
+value of CFG_RDY (INIT_B)                         :         1
+DONEIN input from DONE pin                        :         1
+IDCODE not validated while trying to write FDRI   :         0
+write FDRI issued before or after decrypt operation:         0
+Decryptor keys not used in proper sequence        :         0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 0111 1011 1000 0000 0000 0000 0000 
+INFO:iMPACT:579 - '3': Completed downloading bit file to device.
+INFO:iMPACT:580 - '3':Checking done pin ....done.
+'3': Programmed successfully.
+Elapsed time =      3 sec.
+// *** BATCH CMD : quit
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Done.
+At Local date and time: Mon Oct 23 12:30:01 2006
+Command xbash -q -c "cd /cygdrive/d/mpdma/; /usr/bin/make -f system.make clean; exit;" Started...
+rm -f implementation/system.ngc
+rm -f implementation/system.bmm
+rm -f implementation/system.bit
+rm -f implementation/system.ncd
+rm -f implementation/system_bd.bmm 
+rm -rf implementation synthesis xst hdl
+rm -rf xst.srp system.srp
+rm -rf microblaze_0/lib/
+rm -rf microblaze_2/lib/
+rm -rf microblaze_3/lib/
+rm -f mb-bmp2jpg/executable.elf 
+rm -f mb-dct/executable.elf 
+rm -f mb-vlc/executable.elf 
+rm -rf simulation/behavioral
+rm -rf virtualplatform
+rm -f _impact.cmd
+Done.
+No changes to be saved in XMP file
